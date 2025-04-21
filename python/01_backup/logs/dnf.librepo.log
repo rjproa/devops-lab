@@ -1,0 +1,261 @@
+2025-03-13T14:27:48-0500 INFO Librepo version: 1.14.5 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.76.1 OpenSSL/3.2.2 zlib/1.2.11 brotli/1.0.9 libidn2/2.3.0 libpsl/0.21.1 (+libidn2/2.3.0) libssh/0.10.4/openssl/zlib nghttp2/1.43.0)
+2025-03-16T08:03:45-0500 INFO Librepo version: 1.14.5 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.76.1 OpenSSL/3.2.2 zlib/1.2.11 brotli/1.0.9 libidn2/2.3.0 libpsl/0.21.1 (+libidn2/2.3.0) libssh/0.10.4/openssl/zlib nghttp2/1.43.0)
+2025-03-16T08:03:45-0500 INFO Downloading: https://mirrors.rockylinux.org/mirrorlist?arch=x86_64&repo=BaseOS-9
+2025-03-16T08:03:46-0500 INFO Downloading: https://rocky-linux-southamerica-east1.production.gcp.mirrors.ctrliq.cloud/pub/rocky//9.5/BaseOS/x86_64/os/repodata/repomd.xml
+2025-03-16T08:03:47-0500 INFO Downloading: https://rocky-linux-southamerica-east1.production.gcp.mirrors.ctrliq.cloud/pub/rocky//9.5/BaseOS/x86_64/os/repodata/a2632ddf-19e0-4b6c-8d1a-e7ac7ed36b2a-PRIMARY.xml.gz
+2025-03-16T08:03:47-0500 INFO Downloading: https://rocky-linux-southamerica-east1.production.gcp.mirrors.ctrliq.cloud/pub/rocky//9.5/BaseOS/x86_64/os/repodata/9397a9c6-cd44-48ed-a8df-d560e541a55d-FILELISTS.xml.gz
+2025-03-16T08:03:47-0500 INFO Downloading: https://rocky-linux-southamerica-east1.production.gcp.mirrors.ctrliq.cloud/pub/rocky//9.5/BaseOS/x86_64/os/repodata/9397a9c6-cd44-48ed-a8df-d560e541a55d-GROUPS.xml.gz
+2025-03-16T08:03:47-0500 INFO Downloading: https://rocky-linux-southamerica-east1.production.gcp.mirrors.ctrliq.cloud/pub/rocky//9.5/BaseOS/x86_64/os/repodata/26d0be53-5b9d-4350-a77f-3ef29559e28e-UPDATEINFO.xml.gz
+2025-03-16T08:03:48-0500 INFO Downloading: https://mirrors.rockylinux.org/mirrorlist?arch=x86_64&repo=AppStream-9
+2025-03-16T08:03:48-0500 INFO Downloading: https://rocky-linux-southamerica-west1.production.gcp.mirrors.ctrliq.cloud/pub/rocky//9.5/AppStream/x86_64/os/repodata/repomd.xml
+2025-03-16T08:03:49-0500 INFO Downloading: https://rocky-linux-southamerica-west1.production.gcp.mirrors.ctrliq.cloud/pub/rocky//9.5/AppStream/x86_64/os/repodata/2707f9bc-9e2a-41d7-9a58-154458655a3a-PRIMARY.xml.gz
+2025-03-16T08:03:49-0500 INFO Downloading: https://rocky-linux-southamerica-west1.production.gcp.mirrors.ctrliq.cloud/pub/rocky//9.5/AppStream/x86_64/os/repodata/48f657fe-7e5f-41bb-b6f8-679efe459532-FILELISTS.xml.gz
+2025-03-16T08:03:49-0500 INFO Downloading: https://rocky-linux-southamerica-west1.production.gcp.mirrors.ctrliq.cloud/pub/rocky//9.5/AppStream/x86_64/os/repodata/48f657fe-7e5f-41bb-b6f8-679efe459532-GROUPS.xml.gz
+2025-03-16T08:03:50-0500 INFO Downloading: https://rocky-linux-southamerica-west1.production.gcp.mirrors.ctrliq.cloud/pub/rocky//9.5/AppStream/x86_64/os/repodata/48f657fe-7e5f-41bb-b6f8-679efe459532-MODULES.yaml.gz
+2025-03-16T08:03:50-0500 INFO Downloading: https://rocky-linux-southamerica-west1.production.gcp.mirrors.ctrliq.cloud/pub/rocky//9.5/AppStream/x86_64/os/repodata/8953651b-f764-4fb6-87a5-4114efc035f2-UPDATEINFO.xml.gz
+2025-03-16T08:03:53-0500 INFO Downloading: https://mirrors.rockylinux.org/mirrorlist?arch=x86_64&repo=extras-9
+2025-03-16T08:03:54-0500 INFO Downloading: https://rocky-linux-southamerica-west1.production.gcp.mirrors.ctrliq.cloud/pub/rocky//9.5/extras/x86_64/os/repodata/repomd.xml
+2025-03-16T08:03:54-0500 INFO Downloading: https://rocky-linux-southamerica-west1.production.gcp.mirrors.ctrliq.cloud/pub/rocky//9.5/extras/x86_64/os/repodata/8ff6917c-9bf9-481e-9ff9-b2b067ab9760-PRIMARY.xml.gz
+2025-03-16T08:03:54-0500 INFO Downloading: https://rocky-linux-southamerica-west1.production.gcp.mirrors.ctrliq.cloud/pub/rocky//9.5/extras/x86_64/os/repodata/15bf237a-5374-4002-9fdf-b5007b5d6f7a-FILELISTS.xml.gz
+2025-03-16T09:04:00-0500 INFO Librepo version: 1.14.5 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.76.1 OpenSSL/3.2.2 zlib/1.2.11 brotli/1.0.9 libidn2/2.3.0 libpsl/0.21.1 (+libidn2/2.3.0) libssh/0.10.4/openssl/zlib nghttp2/1.43.0)
+2025-03-16T09:36:46-0500 INFO Librepo version: 1.14.5 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.76.1 OpenSSL/3.2.2 zlib/1.2.11 brotli/1.0.9 libidn2/2.3.0 libpsl/0.21.1 (+libidn2/2.3.0) libssh/0.10.4/openssl/zlib nghttp2/1.43.0)
+2025-03-16T09:37:03-0500 INFO Librepo version: 1.14.5 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.76.1 OpenSSL/3.2.2 zlib/1.2.11 brotli/1.0.9 libidn2/2.3.0 libpsl/0.21.1 (+libidn2/2.3.0) libssh/0.10.4/openssl/zlib nghttp2/1.43.0)
+2025-03-16T09:37:14-0500 INFO Librepo version: 1.14.5 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.76.1 OpenSSL/3.2.2 zlib/1.2.11 brotli/1.0.9 libidn2/2.3.0 libpsl/0.21.1 (+libidn2/2.3.0) libssh/0.10.4/openssl/zlib nghttp2/1.43.0)
+2025-03-16T10:22:38-0500 INFO Librepo version: 1.14.5 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.76.1 OpenSSL/3.2.2 zlib/1.2.11 brotli/1.0.9 libidn2/2.3.0 libpsl/0.21.1 (+libidn2/2.3.0) libssh/0.10.4/openssl/zlib nghttp2/1.43.0)
+2025-03-16T12:18:30-0500 INFO Librepo version: 1.14.5 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.76.1 OpenSSL/3.2.2 zlib/1.2.11 brotli/1.0.9 libidn2/2.3.0 libpsl/0.21.1 (+libidn2/2.3.0) libssh/0.10.4/openssl/zlib nghttp2/1.43.0)
+2025-03-16T12:18:30-0500 INFO Downloading: https://mirrors.rockylinux.org/mirrorlist?arch=x86_64&repo=BaseOS-9&countme=1
+2025-03-16T12:18:31-0500 INFO Downloading: http://mirror.hnd.cl/rockylinux/9.5/BaseOS/x86_64/os/repodata/repomd.xml
+2025-03-16T12:18:31-0500 INFO Downloading: https://mirrors.rockylinux.org/mirrorlist?arch=x86_64&repo=AppStream-9
+2025-03-16T12:18:32-0500 INFO Downloading: http://mirror.hnd.cl/rockylinux/9.5/AppStream/x86_64/os/repodata/repomd.xml
+2025-03-16T12:18:32-0500 INFO Downloading: https://mirrors.rockylinux.org/mirrorlist?arch=x86_64&repo=extras-9
+2025-03-16T12:18:32-0500 INFO Downloading: https://rocky-linux-southamerica-east1.production.gcp.mirrors.ctrliq.cloud/pub/rocky//9.5/extras/x86_64/os/repodata/repomd.xml
+2025-03-23T10:45:55-0500 INFO Librepo version: 1.14.5 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.76.1 OpenSSL/3.2.2 zlib/1.2.11 brotli/1.0.9 libidn2/2.3.0 libpsl/0.21.1 (+libidn2/2.3.0) libssh/0.10.4/openssl/zlib nghttp2/1.43.0)
+2025-03-23T10:45:56-0500 INFO Downloading: https://mirrors.rockylinux.org/mirrorlist?arch=x86_64&repo=BaseOS-9
+2025-03-23T10:45:57-0500 INFO Downloading: http://mirror.hnd.cl/rockylinux/9.5/BaseOS/x86_64/os/repodata/repomd.xml
+2025-03-23T10:45:58-0500 INFO Downloading: https://mirrors.rockylinux.org/mirrorlist?arch=x86_64&repo=BaseOS-9&countme=1
+2025-03-23T10:45:59-0500 INFO Downloading: https://rocky-linux-southamerica-east1.production.gcp.mirrors.ctrliq.cloud/pub/rocky//9.5/BaseOS/x86_64/os/repodata/repomd.xml
+2025-03-23T10:46:00-0500 INFO Downloading: https://rocky-linux-southamerica-east1.production.gcp.mirrors.ctrliq.cloud/pub/rocky//9.5/BaseOS/x86_64/os/repodata/e33b7e25-fee9-425d-b18e-5c18b0a5fb8d-PRIMARY.xml.gz
+2025-03-23T10:46:00-0500 INFO Downloading: https://rocky-linux-southamerica-east1.production.gcp.mirrors.ctrliq.cloud/pub/rocky//9.5/BaseOS/x86_64/os/repodata/f0a81fe6-71e3-496f-97b1-62e03ee3af86-FILELISTS.xml.gz
+2025-03-23T10:46:00-0500 INFO Downloading: https://rocky-linux-southamerica-east1.production.gcp.mirrors.ctrliq.cloud/pub/rocky//9.5/BaseOS/x86_64/os/repodata/f0a81fe6-71e3-496f-97b1-62e03ee3af86-GROUPS.xml.gz
+2025-03-23T10:46:02-0500 INFO Downloading: https://rocky-linux-southamerica-east1.production.gcp.mirrors.ctrliq.cloud/pub/rocky//9.5/BaseOS/x86_64/os/repodata/26d0be53-5b9d-4350-a77f-3ef29559e28e-UPDATEINFO.xml.gz
+2025-03-23T10:46:03-0500 INFO Downloading: https://mirrors.rockylinux.org/mirrorlist?arch=x86_64&repo=AppStream-9&countme=1
+2025-03-23T10:46:05-0500 INFO Downloading: https://rocky-linux-southamerica-west1.production.gcp.mirrors.ctrliq.cloud/pub/rocky//9.5/AppStream/x86_64/os/repodata/repomd.xml
+2025-03-23T10:46:06-0500 INFO Downloading: https://mirrors.rockylinux.org/mirrorlist?arch=x86_64&repo=AppStream-9
+2025-03-23T10:46:08-0500 INFO Downloading: https://rocky-linux-southamerica-east1.production.gcp.mirrors.ctrliq.cloud/pub/rocky//9.5/AppStream/x86_64/os/repodata/repomd.xml
+2025-03-23T10:46:09-0500 INFO Downloading: https://rocky-linux-southamerica-east1.production.gcp.mirrors.ctrliq.cloud/pub/rocky//9.5/AppStream/x86_64/os/repodata/191fd421-7faf-494e-86cb-4432b1b0ff96-PRIMARY.xml.gz
+2025-03-23T10:46:09-0500 INFO Downloading: https://rocky-linux-southamerica-east1.production.gcp.mirrors.ctrliq.cloud/pub/rocky//9.5/AppStream/x86_64/os/repodata/fd4865ba-2ba3-42b7-89d1-393a572d4976-FILELISTS.xml.gz
+2025-03-23T10:46:09-0500 INFO Downloading: https://rocky-linux-southamerica-east1.production.gcp.mirrors.ctrliq.cloud/pub/rocky//9.5/AppStream/x86_64/os/repodata/fd4865ba-2ba3-42b7-89d1-393a572d4976-GROUPS.xml.gz
+2025-03-23T10:46:11-0500 INFO Downloading: https://rocky-linux-southamerica-east1.production.gcp.mirrors.ctrliq.cloud/pub/rocky//9.5/AppStream/x86_64/os/repodata/fd4865ba-2ba3-42b7-89d1-393a572d4976-MODULES.yaml.gz
+2025-03-23T10:46:11-0500 INFO Downloading: https://rocky-linux-southamerica-east1.production.gcp.mirrors.ctrliq.cloud/pub/rocky//9.5/AppStream/x86_64/os/repodata/8953651b-f764-4fb6-87a5-4114efc035f2-UPDATEINFO.xml.gz
+2025-03-23T10:46:15-0500 INFO Downloading: https://mirrors.rockylinux.org/mirrorlist?arch=x86_64&repo=extras-9
+2025-03-23T10:46:17-0500 INFO Downloading: https://rocky-linux-southamerica-west1.production.gcp.mirrors.ctrliq.cloud/pub/rocky//9.5/extras/x86_64/os/repodata/repomd.xml
+2025-03-23T11:53:03-0500 INFO Librepo version: 1.14.5 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.76.1 OpenSSL/3.2.2 zlib/1.2.11 brotli/1.0.9 libidn2/2.3.0 libpsl/0.21.1 (+libidn2/2.3.0) libssh/0.10.4/openssl/zlib nghttp2/1.43.0)
+2025-03-23T11:53:05-0500 INFO Downloading: https://mirrors.rockylinux.org/mirrorlist?arch=x86_64&repo=BaseOS-9
+2025-03-23T11:53:10-0500 INFO Downloading: http://mirror.hnd.cl/rockylinux/9.5/BaseOS/x86_64/os/Packages/d/dhcp-server-4.4.2-19.b1.el9.x86_64.rpm
+2025-03-23T11:53:10-0500 INFO Downloading: http://mirror.hnd.cl/rockylinux/9.5/BaseOS/x86_64/os/Packages/d/dhcp-common-4.4.2-19.b1.el9.noarch.rpm
+2025-03-23T11:53:20-0500 INFO Downloading: file:///etc/pki/rpm-gpg/RPM-GPG-KEY-Rocky-9
+2025-03-23T11:53:28-0500 INFO Librepo version: 1.14.5 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.76.1 OpenSSL/3.2.2 zlib/1.2.11 brotli/1.0.9 libidn2/2.3.0 libpsl/0.21.1 (+libidn2/2.3.0) libssh/0.10.4/openssl/zlib nghttp2/1.43.0)
+2025-03-23T11:55:06-0500 INFO Librepo version: 1.14.5 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.76.1 OpenSSL/3.2.2 zlib/1.2.11 brotli/1.0.9 libidn2/2.3.0 libpsl/0.21.1 (+libidn2/2.3.0) libssh/0.10.4/openssl/zlib nghttp2/1.43.0)
+2025-03-23T11:55:07-0500 INFO Downloading: https://mirrors.rockylinux.org/mirrorlist?arch=x86_64&repo=AppStream-9
+2025-03-23T11:55:08-0500 INFO Downloading: https://rocky-linux-southamerica-west1.production.gcp.mirrors.ctrliq.cloud/pub/rocky//9.5/AppStream/x86_64/os/Packages/s/squid-5.5-14.el9_5.3.x86_64.rpm
+2025-03-23T11:55:08-0500 INFO Downloading: https://rocky-linux-southamerica-west1.production.gcp.mirrors.ctrliq.cloud/pub/rocky//9.5/AppStream/x86_64/os/Packages/l/libecap-1.0.1-10.el9.x86_64.rpm
+2025-03-23T11:55:08-0500 INFO Downloading: https://rocky-linux-southamerica-west1.production.gcp.mirrors.ctrliq.cloud/pub/rocky//9.5/AppStream/x86_64/os/Packages/p/perl-English-1.11-481.el9.noarch.rpm
+2025-03-23T11:56:29-0500 INFO Librepo version: 1.14.5 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.76.1 OpenSSL/3.2.2 zlib/1.2.11 brotli/1.0.9 libidn2/2.3.0 libpsl/0.21.1 (+libidn2/2.3.0) libssh/0.10.4/openssl/zlib nghttp2/1.43.0)
+2025-03-23T11:56:29-0500 INFO Downloading: https://mirrors.rockylinux.org/mirrorlist?arch=x86_64&repo=AppStream-9
+2025-03-23T11:56:30-0500 INFO Downloading: https://rocky-linux-southamerica-west1.production.gcp.mirrors.ctrliq.cloud/pub/rocky//9.5/AppStream/x86_64/os/Packages/s/sendmail-8.16.1-11.el9.x86_64.rpm
+2025-03-23T11:56:30-0500 INFO Downloading: https://rocky-linux-southamerica-west1.production.gcp.mirrors.ctrliq.cloud/pub/rocky//9.5/AppStream/x86_64/os/Packages/t/tinycdb-0.78-18.el9.x86_64.rpm
+2025-03-23T12:19:05-0500 INFO Librepo version: 1.14.5 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.76.1 OpenSSL/3.2.2 zlib/1.2.11 brotli/1.0.9 libidn2/2.3.0 libpsl/0.21.1 (+libidn2/2.3.0) libssh/0.10.4/openssl/zlib nghttp2/1.43.0)
+2025-03-23T13:00:47-0500 INFO Librepo version: 1.14.5 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.76.1 OpenSSL/3.2.2 zlib/1.2.11 brotli/1.0.9 libidn2/2.3.0 libpsl/0.21.1 (+libidn2/2.3.0) libssh/0.10.4/openssl/zlib nghttp2/1.43.0)
+2025-03-30T09:13:02-0500 INFO Librepo version: 1.14.5 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.76.1 OpenSSL/3.2.2 zlib/1.2.11 brotli/1.0.9 libidn2/2.3.0 libpsl/0.21.1 (+libidn2/2.3.0) libssh/0.10.4/openssl/zlib nghttp2/1.43.0)
+2025-03-30T09:13:02-0500 INFO Downloading: https://mirrors.rockylinux.org/mirrorlist?arch=x86_64&repo=BaseOS-9&countme=2
+2025-03-30T09:13:03-0500 INFO Downloading: http://mirror.hnd.cl/rockylinux/9.5/BaseOS/x86_64/os/repodata/repomd.xml
+2025-03-30T09:13:03-0500 INFO Downloading: https://mirrors.rockylinux.org/mirrorlist?arch=x86_64&repo=AppStream-9
+2025-03-30T09:13:04-0500 INFO Downloading: https://rocky-linux-southamerica-east1.production.gcp.mirrors.ctrliq.cloud/pub/rocky//9.5/AppStream/x86_64/os/repodata/repomd.xml
+2025-03-30T09:13:04-0500 INFO Downloading: https://mirrors.rockylinux.org/mirrorlist?arch=x86_64&repo=AppStream-9
+2025-03-30T09:13:05-0500 INFO Downloading: http://br.mirrors.cicku.me/rocky/9.5/AppStream/x86_64/os/repodata/repomd.xml
+2025-03-30T09:13:06-0500 INFO Downloading: http://br.mirrors.cicku.me/rocky/9.5/AppStream/x86_64/os/repodata/f8b9db79-1628-4526-8a1e-6a59a66623b9-PRIMARY.xml.gz
+2025-03-30T09:13:06-0500 INFO Downloading: http://br.mirrors.cicku.me/rocky/9.5/AppStream/x86_64/os/repodata/bd5d29fc-0b19-47fa-b062-47b418485919-FILELISTS.xml.gz
+2025-03-30T09:13:06-0500 INFO Downloading: http://br.mirrors.cicku.me/rocky/9.5/AppStream/x86_64/os/repodata/bd5d29fc-0b19-47fa-b062-47b418485919-GROUPS.xml.gz
+2025-03-30T09:13:07-0500 INFO Downloading: http://br.mirrors.cicku.me/rocky/9.5/AppStream/x86_64/os/repodata/bd5d29fc-0b19-47fa-b062-47b418485919-MODULES.yaml.gz
+2025-03-30T09:13:07-0500 INFO Downloading: http://br.mirrors.cicku.me/rocky/9.5/AppStream/x86_64/os/repodata/8953651b-f764-4fb6-87a5-4114efc035f2-UPDATEINFO.xml.gz
+2025-03-30T09:13:11-0500 INFO Downloading: https://mirrors.rockylinux.org/mirrorlist?arch=x86_64&repo=extras-9
+2025-03-30T09:13:12-0500 INFO Downloading: https://rocky-linux-southamerica-east1.production.gcp.mirrors.ctrliq.cloud/pub/rocky//9.5/extras/x86_64/os/repodata/repomd.xml
+2025-03-30T09:13:12-0500 INFO Downloading: https://mirrors.rockylinux.org/mirrorlist?arch=x86_64&repo=extras-9&countme=2
+2025-03-30T09:13:13-0500 INFO Downloading: https://rocky-linux-southamerica-east1.production.gcp.mirrors.ctrliq.cloud/pub/rocky//9.5/extras/x86_64/os/repodata/repomd.xml
+2025-03-30T09:13:13-0500 INFO Downloading: https://rocky-linux-southamerica-east1.production.gcp.mirrors.ctrliq.cloud/pub/rocky//9.5/extras/x86_64/os/repodata/2728fb0d-2e9f-4d3e-9a12-3695b2a2af7b-PRIMARY.xml.gz
+2025-03-30T09:13:13-0500 INFO Downloading: https://rocky-linux-southamerica-east1.production.gcp.mirrors.ctrliq.cloud/pub/rocky//9.5/extras/x86_64/os/repodata/7d8c1288-f4db-46fd-a9ee-fe7fdec8d29a-FILELISTS.xml.gz
+2025-03-30T10:33:09-0500 INFO Librepo version: 1.14.5 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.76.1 OpenSSL/3.2.2 zlib/1.2.11 brotli/1.0.9 libidn2/2.3.0 libpsl/0.21.1 (+libidn2/2.3.0) libssh/0.10.4/openssl/zlib nghttp2/1.43.0)
+2025-03-30T10:37:46-0500 INFO Librepo version: 1.14.5 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.76.1 OpenSSL/3.2.2 zlib/1.2.11 brotli/1.0.9 libidn2/2.3.0 libpsl/0.21.1 (+libidn2/2.3.0) libssh/0.10.4/openssl/zlib nghttp2/1.43.0)
+2025-03-30T10:38:44-0500 INFO Librepo version: 1.14.5 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.76.1 OpenSSL/3.2.2 zlib/1.2.11 brotli/1.0.9 libidn2/2.3.0 libpsl/0.21.1 (+libidn2/2.3.0) libssh/0.10.4/openssl/zlib nghttp2/1.43.0)
+2025-03-30T10:39:07-0500 INFO Librepo version: 1.14.5 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.76.1 OpenSSL/3.2.2 zlib/1.2.11 brotli/1.0.9 libidn2/2.3.0 libpsl/0.21.1 (+libidn2/2.3.0) libssh/0.10.4/openssl/zlib nghttp2/1.43.0)
+2025-03-30T10:39:07-0500 INFO Downloading: https://mirrors.rockylinux.org/mirrorlist?arch=x86_64&repo=extras-9
+2025-03-30T10:39:08-0500 INFO Downloading: https://rocky-linux-southamerica-east1.production.gcp.mirrors.ctrliq.cloud/pub/rocky//9.5/extras/x86_64/os/Packages/e/epel-release-9-7.el9.noarch.rpm
+2025-03-30T10:39:24-0500 INFO Librepo version: 1.14.5 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.76.1 OpenSSL/3.2.2 zlib/1.2.11 brotli/1.0.9 libidn2/2.3.0 libpsl/0.21.1 (+libidn2/2.3.0) libssh/0.10.4/openssl/zlib nghttp2/1.43.0)
+2025-03-30T10:39:24-0500 INFO Downloading: https://mirrors.fedoraproject.org/metalink?repo=epel-9&arch=x86_64&infra=$infra&content=pub/rocky
+2025-03-30T10:39:25-0500 INFO Downloading: http://edgeuno-bog2.mm.fcix.net/epel/9/Everything/x86_64/repodata/repomd.xml
+2025-03-30T10:39:26-0500 INFO Downloading: http://edgeuno-bog2.mm.fcix.net/epel/9/Everything/x86_64/repodata/27aeeac5ab441bd90ea7e17d1743c324d0c00b1c830c08d8e63e8dd47e3300a4-primary.xml.gz
+2025-03-30T10:39:26-0500 INFO Downloading: http://edgeuno-bog2.mm.fcix.net/epel/9/Everything/x86_64/repodata/ead25e96a0c8cdccd0f983bccccad0b1480a2a81495ee0165ac590412105dce7-filelists.xml.gz
+2025-03-30T10:39:26-0500 INFO Downloading: http://edgeuno-bog2.mm.fcix.net/epel/9/Everything/x86_64/repodata/07dadafd6558efd57198cc2947d340bb25726890935cc273789c4e7e7a49a846-comps-Everything.x86_64.xml
+2025-03-30T10:39:26-0500 INFO Downloading: http://edgeuno-bog2.mm.fcix.net/epel/9/Everything/x86_64/repodata/5720aa11f97201c83eb1c85b107a57caaa4308cdee12be7a15df11a06fc3d3b4-prestodelta.xml.gz
+2025-03-30T10:39:26-0500 INFO Downloading: http://edgeuno-bog2.mm.fcix.net/epel/9/Everything/x86_64/repodata/e54e1a385b7fbf038ab652f0880eee0e3cbebbd04a1f7fe6f22f9ddcb5351e99-updateinfo.xml.bz2
+2025-03-30T10:39:49-0500 INFO Downloading: https://mirrors.fedoraproject.org/metalink?repo=epel-cisco-openh264-9&arch=x86_64
+2025-03-30T10:39:49-0500 INFO Downloading: https://codecs.fedoraproject.org/openh264/epel/9/x86_64/os/repodata/repomd.xml
+2025-03-30T10:39:50-0500 INFO Downloading: https://codecs.fedoraproject.org/openh264/epel/9/x86_64/os/repodata/a706b5065cbe4ca4a46b679be4858405869af7048000ce5b9025fac82914d3b2-primary.xml.gz
+2025-03-30T10:39:50-0500 INFO Downloading: https://codecs.fedoraproject.org/openh264/epel/9/x86_64/os/repodata/eb045142f0aecec1cd63ed9b7392b6119d52f65cd92d4b8c40a7b723cedab1d0-filelists.xml.gz
+2025-03-30T10:39:50-0500 INFO Downloading: https://codecs.fedoraproject.org/openh264/epel/9/x86_64/os/repodata/3d50825fb25440abc9579f078205d6ba3590b1d146187af8179eb43214c8b40e-comps-Temporary.x86_64.xml.gz
+2025-03-30T10:39:53-0500 INFO Downloading: https://mirrors.rockylinux.org/mirrorlist?arch=x86_64&repo=BaseOS-9
+2025-03-30T10:39:54-0500 INFO Downloading: https://mirrors.rockylinux.org/mirrorlist?arch=x86_64&repo=AppStream-9
+2025-03-30T10:39:54-0500 INFO Downloading: https://mirrors.fedoraproject.org/metalink?repo=epel-9&arch=x86_64&infra=$infra&content=pub/rocky
+2025-03-30T10:39:56-0500 INFO Downloading: https://rocky-linux-southamerica-west1.production.gcp.mirrors.ctrliq.cloud/pub/rocky//9.5/BaseOS/x86_64/os/Packages/k/kernel-modules-core-5.14.0-503.33.1.el9_5.x86_64.rpm
+2025-03-30T10:39:56-0500 INFO Downloading: https://rocky-linux-southamerica-west1.production.gcp.mirrors.ctrliq.cloud/pub/rocky//9.5/BaseOS/x86_64/os/Packages/k/kernel-modules-5.14.0-503.33.1.el9_5.x86_64.rpm
+2025-03-30T10:39:56-0500 INFO Downloading: https://rocky-linux-southamerica-west1.production.gcp.mirrors.ctrliq.cloud/pub/rocky//9.5/BaseOS/x86_64/os/Packages/k/kernel-core-5.14.0-503.33.1.el9_5.x86_64.rpm
+2025-03-30T10:40:08-0500 INFO Downloading: https://rocky-linux-southamerica-west1.production.gcp.mirrors.ctrliq.cloud/pub/rocky//9.5/BaseOS/x86_64/os/Packages/k/kernel-5.14.0-503.33.1.el9_5.x86_64.rpm
+2025-03-30T10:40:09-0500 INFO Downloading: https://rocky-linux-southamerica-east1.production.gcp.mirrors.ctrliq.cloud/pub/rocky//9.5/AppStream/x86_64/os/Packages/k/kernel-devel-5.14.0-503.33.1.el9_5.x86_64.rpm
+2025-03-30T10:40:13-0500 INFO Downloading: https://mirror.cedia.org.ec/epel/9/Everything/x86_64/Packages/e/epel-release-9-9.el9.noarch.rpm
+2025-03-30T10:40:15-0500 INFO Downloading: https://rocky-linux-southamerica-west1.production.gcp.mirrors.ctrliq.cloud/pub/rocky//9.5/BaseOS/x86_64/os/Packages/m/mdadm-4.3-4.el9_5.x86_64.rpm
+2025-03-30T10:40:15-0500 INFO Downloading: https://rocky-linux-southamerica-west1.production.gcp.mirrors.ctrliq.cloud/pub/rocky//9.5/BaseOS/x86_64/os/Packages/n/netronome-firmware-20250212-146.4.el9_5.noarch.rpm
+2025-03-30T10:40:16-0500 INFO Downloading: https://rocky-linux-southamerica-west1.production.gcp.mirrors.ctrliq.cloud/pub/rocky//9.5/BaseOS/x86_64/os/Packages/l/linux-firmware-whence-20250212-146.4.el9_5.noarch.rpm
+2025-03-30T10:40:16-0500 INFO Downloading: https://rocky-linux-southamerica-west1.production.gcp.mirrors.ctrliq.cloud/pub/rocky//9.5/BaseOS/x86_64/os/Packages/l/linux-firmware-20250212-146.4.el9_5.noarch.rpm
+2025-03-30T10:40:17-0500 INFO Downloading: https://rocky-linux-southamerica-west1.production.gcp.mirrors.ctrliq.cloud/pub/rocky//9.5/BaseOS/x86_64/os/Packages/l/libertas-sd8787-firmware-20250212-146.4.el9_5.noarch.rpm
+2025-03-30T10:40:18-0500 INFO Downloading: https://rocky-linux-southamerica-west1.production.gcp.mirrors.ctrliq.cloud/pub/rocky//9.5/BaseOS/x86_64/os/Packages/i/iwl7260-firmware-25.30.13.0-146.4.el9_5.noarch.rpm
+2025-03-30T10:40:21-0500 INFO Downloading: https://rocky-linux-southamerica-west1.production.gcp.mirrors.ctrliq.cloud/pub/rocky//9.5/BaseOS/x86_64/os/Packages/i/iwl6050-firmware-41.28.5.1-146.4.el9_5.noarch.rpm
+2025-03-30T10:40:22-0500 INFO Downloading: https://rocky-linux-southamerica-west1.production.gcp.mirrors.ctrliq.cloud/pub/rocky//9.5/BaseOS/x86_64/os/Packages/i/iwl6000g2b-firmware-18.168.6.1-146.4.el9_5.noarch.rpm
+2025-03-30T10:40:22-0500 INFO Downloading: https://rocky-linux-southamerica-west1.production.gcp.mirrors.ctrliq.cloud/pub/rocky//9.5/BaseOS/x86_64/os/Packages/i/iwl6000g2a-firmware-18.168.6.1-146.4.el9_5.noarch.rpm
+2025-03-30T10:40:23-0500 INFO Downloading: https://rocky-linux-southamerica-west1.production.gcp.mirrors.ctrliq.cloud/pub/rocky//9.5/BaseOS/x86_64/os/Packages/i/iwl5150-firmware-8.24.2.2-146.4.el9_5.noarch.rpm
+2025-03-30T10:40:24-0500 INFO Downloading: https://rocky-linux-southamerica-west1.production.gcp.mirrors.ctrliq.cloud/pub/rocky//9.5/BaseOS/x86_64/os/Packages/i/iwl5000-firmware-8.83.5.1_1-146.4.el9_5.noarch.rpm
+2025-03-30T10:40:24-0500 INFO Downloading: https://rocky-linux-southamerica-west1.production.gcp.mirrors.ctrliq.cloud/pub/rocky//9.5/BaseOS/x86_64/os/Packages/i/iwl3160-firmware-25.30.13.0-146.4.el9_5.noarch.rpm
+2025-03-30T10:40:25-0500 INFO Downloading: https://rocky-linux-southamerica-west1.production.gcp.mirrors.ctrliq.cloud/pub/rocky//9.5/BaseOS/x86_64/os/Packages/i/iwl2030-firmware-18.168.6.1-146.4.el9_5.noarch.rpm
+2025-03-30T10:40:25-0500 INFO Downloading: https://rocky-linux-southamerica-west1.production.gcp.mirrors.ctrliq.cloud/pub/rocky//9.5/BaseOS/x86_64/os/Packages/i/iwl2000-firmware-18.168.6.1-146.4.el9_5.noarch.rpm
+2025-03-30T10:40:26-0500 INFO Downloading: https://rocky-linux-southamerica-west1.production.gcp.mirrors.ctrliq.cloud/pub/rocky//9.5/BaseOS/x86_64/os/Packages/i/iwl135-firmware-18.168.6.1-146.4.el9_5.noarch.rpm
+2025-03-30T10:40:26-0500 INFO Downloading: https://rocky-linux-southamerica-west1.production.gcp.mirrors.ctrliq.cloud/pub/rocky//9.5/BaseOS/x86_64/os/Packages/i/iwl105-firmware-18.168.6.1-146.4.el9_5.noarch.rpm
+2025-03-30T10:40:27-0500 INFO Downloading: https://rocky-linux-southamerica-west1.production.gcp.mirrors.ctrliq.cloud/pub/rocky//9.5/BaseOS/x86_64/os/Packages/i/iwl1000-firmware-39.31.5.1-146.4.el9_5.noarch.rpm
+2025-03-30T10:40:28-0500 INFO Downloading: https://rocky-linux-southamerica-west1.production.gcp.mirrors.ctrliq.cloud/pub/rocky//9.5/BaseOS/x86_64/os/Packages/i/iwl100-firmware-39.31.5.1-146.4.el9_5.noarch.rpm
+2025-03-30T10:40:29-0500 INFO Downloading: https://rocky-linux-southamerica-west1.production.gcp.mirrors.ctrliq.cloud/pub/rocky//9.5/BaseOS/x86_64/os/Packages/u/unzip-6.0-58.el9_5.x86_64.rpm
+2025-03-30T10:40:29-0500 INFO Downloading: https://rocky-linux-southamerica-west1.production.gcp.mirrors.ctrliq.cloud/pub/rocky//9.5/BaseOS/x86_64/os/Packages/m/microcode_ctl-20240910-1.20250211.1.el9_5.noarch.rpm
+2025-03-30T10:40:35-0500 INFO Downloading: https://rocky-linux-southamerica-west1.production.gcp.mirrors.ctrliq.cloud/pub/rocky//9.5/BaseOS/x86_64/os/Packages/n/NetworkManager-config-server-1.48.10-8.el9_5.noarch.rpm
+2025-03-30T10:40:36-0500 INFO Downloading: https://rocky-linux-southamerica-west1.production.gcp.mirrors.ctrliq.cloud/pub/rocky//9.5/BaseOS/x86_64/os/Packages/s/systemd-udev-252-46.el9_5.3.x86_64.rpm
+2025-03-30T10:40:37-0500 INFO Downloading: https://rocky-linux-southamerica-west1.production.gcp.mirrors.ctrliq.cloud/pub/rocky//9.5/BaseOS/x86_64/os/Packages/s/systemd-rpm-macros-252-46.el9_5.3.noarch.rpm
+2025-03-30T10:40:38-0500 INFO Downloading: https://rocky-linux-southamerica-west1.production.gcp.mirrors.ctrliq.cloud/pub/rocky//9.5/BaseOS/x86_64/os/Packages/s/systemd-pam-252-46.el9_5.3.x86_64.rpm
+2025-03-30T10:40:38-0500 INFO Downloading: https://rocky-linux-southamerica-west1.production.gcp.mirrors.ctrliq.cloud/pub/rocky//9.5/BaseOS/x86_64/os/Packages/s/systemd-libs-252-46.el9_5.3.x86_64.rpm
+2025-03-30T10:40:39-0500 INFO Downloading: https://rocky-linux-southamerica-west1.production.gcp.mirrors.ctrliq.cloud/pub/rocky//9.5/BaseOS/x86_64/os/Packages/s/systemd-252-46.el9_5.3.x86_64.rpm
+2025-03-30T10:40:42-0500 INFO Downloading: https://rocky-linux-southamerica-west1.production.gcp.mirrors.ctrliq.cloud/pub/rocky//9.5/BaseOS/x86_64/os/Packages/n/NetworkManager-wwan-1.48.10-8.el9_5.x86_64.rpm
+2025-03-30T10:40:42-0500 INFO Downloading: https://rocky-linux-southamerica-west1.production.gcp.mirrors.ctrliq.cloud/pub/rocky//9.5/BaseOS/x86_64/os/Packages/n/NetworkManager-wifi-1.48.10-8.el9_5.x86_64.rpm
+2025-03-30T10:40:43-0500 INFO Downloading: https://rocky-linux-southamerica-west1.production.gcp.mirrors.ctrliq.cloud/pub/rocky//9.5/BaseOS/x86_64/os/Packages/n/NetworkManager-tui-1.48.10-8.el9_5.x86_64.rpm
+2025-03-30T10:40:43-0500 INFO Downloading: https://rocky-linux-southamerica-west1.production.gcp.mirrors.ctrliq.cloud/pub/rocky//9.5/BaseOS/x86_64/os/Packages/n/NetworkManager-team-1.48.10-8.el9_5.x86_64.rpm
+2025-03-30T10:40:44-0500 INFO Downloading: https://rocky-linux-southamerica-west1.production.gcp.mirrors.ctrliq.cloud/pub/rocky//9.5/BaseOS/x86_64/os/Packages/n/NetworkManager-libnm-1.48.10-8.el9_5.x86_64.rpm
+2025-03-30T10:40:45-0500 INFO Downloading: https://rocky-linux-southamerica-west1.production.gcp.mirrors.ctrliq.cloud/pub/rocky//9.5/BaseOS/x86_64/os/Packages/n/NetworkManager-bluetooth-1.48.10-8.el9_5.x86_64.rpm
+2025-03-30T10:40:46-0500 INFO Downloading: https://rocky-linux-southamerica-west1.production.gcp.mirrors.ctrliq.cloud/pub/rocky//9.5/BaseOS/x86_64/os/Packages/n/NetworkManager-adsl-1.48.10-8.el9_5.x86_64.rpm
+2025-03-30T10:40:46-0500 INFO Downloading: https://rocky-linux-southamerica-west1.production.gcp.mirrors.ctrliq.cloud/pub/rocky//9.5/BaseOS/x86_64/os/Packages/n/NetworkManager-1.48.10-8.el9_5.x86_64.rpm
+2025-03-30T10:40:47-0500 INFO Downloading: https://rocky-linux-southamerica-west1.production.gcp.mirrors.ctrliq.cloud/pub/rocky//9.5/BaseOS/x86_64/os/Packages/g/grub2-tools-minimal-2.06-94.el9_5.x86_64.rpm
+2025-03-30T10:40:47-0500 INFO Downloading: https://rocky-linux-southamerica-west1.production.gcp.mirrors.ctrliq.cloud/pub/rocky//9.5/BaseOS/x86_64/os/Packages/g/grub2-tools-extra-2.06-94.el9_5.x86_64.rpm
+2025-03-30T10:40:48-0500 INFO Downloading: https://rocky-linux-southamerica-west1.production.gcp.mirrors.ctrliq.cloud/pub/rocky//9.5/BaseOS/x86_64/os/Packages/g/grub2-tools-efi-2.06-94.el9_5.x86_64.rpm
+2025-03-30T10:40:48-0500 INFO Downloading: https://rocky-linux-southamerica-west1.production.gcp.mirrors.ctrliq.cloud/pub/rocky//9.5/BaseOS/x86_64/os/Packages/g/grub2-tools-2.06-94.el9_5.x86_64.rpm
+2025-03-30T10:40:48-0500 INFO Downloading: https://rocky-linux-southamerica-west1.production.gcp.mirrors.ctrliq.cloud/pub/rocky//9.5/BaseOS/x86_64/os/Packages/g/grub2-pc-2.06-94.el9_5.x86_64.rpm
+2025-03-30T10:40:49-0500 INFO Downloading: https://rocky-linux-southamerica-west1.production.gcp.mirrors.ctrliq.cloud/pub/rocky//9.5/BaseOS/x86_64/os/Packages/g/grub2-pc-modules-2.06-94.el9_5.noarch.rpm
+2025-03-30T10:40:50-0500 INFO Downloading: https://rocky-linux-southamerica-west1.production.gcp.mirrors.ctrliq.cloud/pub/rocky//9.5/BaseOS/x86_64/os/Packages/g/grub2-common-2.06-94.el9_5.noarch.rpm
+2025-03-30T10:40:50-0500 INFO Downloading: https://rocky-linux-southamerica-west1.production.gcp.mirrors.ctrliq.cloud/pub/rocky//9.5/BaseOS/x86_64/os/Packages/p/python3-perf-5.14.0-503.33.1.el9_5.x86_64.rpm
+2025-03-30T10:40:51-0500 INFO Downloading: https://rocky-linux-southamerica-west1.production.gcp.mirrors.ctrliq.cloud/pub/rocky//9.5/BaseOS/x86_64/os/Packages/k/kernel-tools-libs-5.14.0-503.33.1.el9_5.x86_64.rpm
+2025-03-30T10:40:51-0500 INFO Downloading: https://rocky-linux-southamerica-west1.production.gcp.mirrors.ctrliq.cloud/pub/rocky//9.5/BaseOS/x86_64/os/Packages/k/kernel-tools-5.14.0-503.33.1.el9_5.x86_64.rpm
+2025-03-30T10:40:52-0500 INFO Downloading: https://rocky-linux-southamerica-west1.production.gcp.mirrors.ctrliq.cloud/pub/rocky//9.5/BaseOS/x86_64/os/Packages/b/bpftool-7.4.0-503.33.1.el9_5.x86_64.rpm
+2025-03-30T10:40:53-0500 INFO Downloading: https://rocky-linux-southamerica-east1.production.gcp.mirrors.ctrliq.cloud/pub/rocky//9.5/AppStream/x86_64/os/Packages/c/cups-filters-libs-1.28.7-18.el9_5.1.x86_64.rpm
+2025-03-30T10:40:53-0500 INFO Downloading: https://rocky-linux-southamerica-east1.production.gcp.mirrors.ctrliq.cloud/pub/rocky//9.5/AppStream/x86_64/os/Packages/c/cups-filters-1.28.7-18.el9_5.1.x86_64.rpm
+2025-03-30T10:40:54-0500 INFO Downloading: https://rocky-linux-southamerica-east1.production.gcp.mirrors.ctrliq.cloud/pub/rocky//9.5/AppStream/x86_64/os/Packages/l/libxslt-1.1.34-9.el9_5.1.x86_64.rpm
+2025-03-30T10:40:54-0500 INFO Downloading: https://rocky-linux-southamerica-east1.production.gcp.mirrors.ctrliq.cloud/pub/rocky//9.5/AppStream/x86_64/os/Packages/g/gnome-control-center-filesystem-40.0-32.el9_5.noarch.rpm
+2025-03-30T10:40:54-0500 INFO Downloading: https://rocky-linux-southamerica-east1.production.gcp.mirrors.ctrliq.cloud/pub/rocky//9.5/AppStream/x86_64/os/Packages/g/gnome-control-center-40.0-32.el9_5.x86_64.rpm
+2025-03-30T10:40:54-0500 INFO Downloading: https://rocky-linux-southamerica-east1.production.gcp.mirrors.ctrliq.cloud/pub/rocky//9.5/AppStream/x86_64/os/Packages/s/scap-security-guide-0.1.76-1.el9.rocky.1.1.noarch.rpm
+2025-03-30T10:40:57-0500 INFO Downloading: https://rocky-linux-southamerica-east1.production.gcp.mirrors.ctrliq.cloud/pub/rocky//9.5/AppStream/x86_64/os/Packages/m/mutter-40.9-23.el9_5.x86_64.rpm
+2025-03-30T10:40:58-0500 INFO Downloading: https://rocky-linux-southamerica-east1.production.gcp.mirrors.ctrliq.cloud/pub/rocky//9.5/AppStream/x86_64/os/Packages/w/webkit2gtk3-jsc-2.46.6-2.el9_5.x86_64.rpm
+2025-03-30T10:40:59-0500 INFO Downloading: https://rocky-linux-southamerica-east1.production.gcp.mirrors.ctrliq.cloud/pub/rocky//9.5/AppStream/x86_64/os/Packages/w/webkit2gtk3-2.46.6-2.el9_5.x86_64.rpm
+2025-03-30T10:41:03-0500 INFO Downloading: https://rocky-linux-southamerica-east1.production.gcp.mirrors.ctrliq.cloud/pub/rocky//9.5/AppStream/x86_64/os/Packages/p/passt-0%5e20240806.gee36266-7.el9_5.x86_64.rpm
+2025-03-30T10:41:05-0500 INFO Downloading: https://rocky-linux-southamerica-east1.production.gcp.mirrors.ctrliq.cloud/pub/rocky//9.5/AppStream/x86_64/os/Packages/p/passt-selinux-0%5e20240806.gee36266-7.el9_5.noarch.rpm
+2025-03-30T10:41:06-0500 INFO Downloading: https://rocky-linux-southamerica-east1.production.gcp.mirrors.ctrliq.cloud/pub/rocky//9.5/AppStream/x86_64/os/Packages/k/kernel-headers-5.14.0-503.33.1.el9_5.x86_64.rpm
+2025-03-30T10:42:17-0500 INFO Downloading: file:///etc/pki/rpm-gpg/RPM-GPG-KEY-EPEL-9
+2025-03-30T10:43:12-0500 INFO Librepo version: 1.14.5 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.76.1 OpenSSL/3.2.2 zlib/1.2.11 brotli/1.0.9 libidn2/2.3.0 libpsl/0.21.1 (+libidn2/2.3.0) libssh/0.10.4/openssl/zlib nghttp2/1.43.0)
+2025-03-30T10:45:55-0500 INFO Librepo version: 1.14.5 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.76.1 OpenSSL/3.2.2 zlib/1.2.11 brotli/1.0.9 libidn2/2.3.0 libpsl/0.21.1 (+libidn2/2.3.0) libssh/0.10.4/openssl/zlib nghttp2/1.43.0)
+2025-03-30T10:46:48-0500 INFO Librepo version: 1.14.5 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.76.1 OpenSSL/3.2.2 zlib/1.2.11 brotli/1.0.9 libidn2/2.3.0 libpsl/0.21.1 (+libidn2/2.3.0) libssh/0.10.4/openssl/zlib nghttp2/1.43.0)
+2025-03-30T10:47:21-0500 INFO Librepo version: 1.14.5 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.76.1 OpenSSL/3.2.2 zlib/1.2.11 brotli/1.0.9 libidn2/2.3.0 libpsl/0.21.1 (+libidn2/2.3.0) libssh/0.10.4/openssl/zlib nghttp2/1.43.0)
+2025-03-30T12:10:02-0500 INFO Librepo version: 1.14.5 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.76.1 OpenSSL/3.2.2 zlib/1.2.11 brotli/1.0.9 libidn2/2.3.0 libpsl/0.21.1 (+libidn2/2.3.0) libssh/0.10.4/openssl/zlib nghttp2/1.43.0)
+2025-03-30T13:58:02-0500 INFO Librepo version: 1.14.5 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.76.1 OpenSSL/3.2.2 zlib/1.2.11 brotli/1.0.9 libidn2/2.3.0 libpsl/0.21.1 (+libidn2/2.3.0) libssh/0.10.4/openssl/zlib nghttp2/1.43.0)
+2025-03-30T13:58:03-0500 INFO Downloading: https://mirrors.fedoraproject.org/metalink?repo=epel-9&arch=x86_64&infra=$infra&content=pub/rocky
+2025-03-30T13:58:04-0500 INFO Downloading: http://edgeuno-bog2.mm.fcix.net/epel/9/Everything/x86_64/repodata/repomd.xml
+2025-03-30T13:58:04-0500 INFO Downloading: http://edgeuno-bog2.mm.fcix.net/epel/9/Everything/x86_64/repodata/27aeeac5ab441bd90ea7e17d1743c324d0c00b1c830c08d8e63e8dd47e3300a4-primary.xml.gz
+2025-03-30T13:58:04-0500 INFO Downloading: http://edgeuno-bog2.mm.fcix.net/epel/9/Everything/x86_64/repodata/ead25e96a0c8cdccd0f983bccccad0b1480a2a81495ee0165ac590412105dce7-filelists.xml.gz
+2025-03-30T13:58:04-0500 INFO Downloading: http://edgeuno-bog2.mm.fcix.net/epel/9/Everything/x86_64/repodata/07dadafd6558efd57198cc2947d340bb25726890935cc273789c4e7e7a49a846-comps-Everything.x86_64.xml
+2025-03-30T13:58:04-0500 INFO Downloading: http://edgeuno-bog2.mm.fcix.net/epel/9/Everything/x86_64/repodata/5720aa11f97201c83eb1c85b107a57caaa4308cdee12be7a15df11a06fc3d3b4-prestodelta.xml.gz
+2025-03-30T13:58:05-0500 INFO Downloading: http://edgeuno-bog2.mm.fcix.net/epel/9/Everything/x86_64/repodata/e54e1a385b7fbf038ab652f0880eee0e3cbebbd04a1f7fe6f22f9ddcb5351e99-updateinfo.xml.bz2
+2025-03-30T13:58:38-0500 INFO Downloading: https://mirrors.fedoraproject.org/metalink?repo=epel-cisco-openh264-9&arch=x86_64
+2025-03-30T13:58:39-0500 INFO Downloading: https://codecs.fedoraproject.org/openh264/epel/9/x86_64/os/repodata/repomd.xml
+2025-03-30T13:58:39-0500 INFO Downloading: https://codecs.fedoraproject.org/openh264/epel/9/x86_64/os/repodata/a706b5065cbe4ca4a46b679be4858405869af7048000ce5b9025fac82914d3b2-primary.xml.gz
+2025-03-30T13:58:39-0500 INFO Downloading: https://codecs.fedoraproject.org/openh264/epel/9/x86_64/os/repodata/eb045142f0aecec1cd63ed9b7392b6119d52f65cd92d4b8c40a7b723cedab1d0-filelists.xml.gz
+2025-03-30T13:58:39-0500 INFO Downloading: https://codecs.fedoraproject.org/openh264/epel/9/x86_64/os/repodata/3d50825fb25440abc9579f078205d6ba3590b1d146187af8179eb43214c8b40e-comps-Temporary.x86_64.xml.gz
+2025-03-30T13:58:40-0500 INFO Downloading: https://mirrors.rockylinux.org/mirrorlist?arch=x86_64&repo=BaseOS-9
+2025-03-30T13:58:40-0500 INFO Downloading: https://rocky-linux-southamerica-west1.production.gcp.mirrors.ctrliq.cloud/pub/rocky//9.5/BaseOS/x86_64/os/repodata/repomd.xml
+2025-03-30T13:58:41-0500 INFO Downloading: https://rocky-linux-southamerica-west1.production.gcp.mirrors.ctrliq.cloud/pub/rocky//9.5/BaseOS/x86_64/os/repodata/e33b7e25-fee9-425d-b18e-5c18b0a5fb8d-PRIMARY.xml.gz
+2025-03-30T13:58:41-0500 INFO Downloading: https://rocky-linux-southamerica-west1.production.gcp.mirrors.ctrliq.cloud/pub/rocky//9.5/BaseOS/x86_64/os/repodata/f0a81fe6-71e3-496f-97b1-62e03ee3af86-FILELISTS.xml.gz
+2025-03-30T13:58:41-0500 INFO Downloading: https://rocky-linux-southamerica-west1.production.gcp.mirrors.ctrliq.cloud/pub/rocky//9.5/BaseOS/x86_64/os/repodata/f0a81fe6-71e3-496f-97b1-62e03ee3af86-GROUPS.xml.gz
+2025-03-30T13:58:41-0500 INFO Downloading: https://rocky-linux-southamerica-west1.production.gcp.mirrors.ctrliq.cloud/pub/rocky//9.5/BaseOS/x86_64/os/repodata/26d0be53-5b9d-4350-a77f-3ef29559e28e-UPDATEINFO.xml.gz
+2025-03-30T13:58:42-0500 INFO Downloading: https://mirrors.rockylinux.org/mirrorlist?arch=x86_64&repo=AppStream-9&countme=2
+2025-03-30T13:58:43-0500 INFO Downloading: http://mirror.hnd.cl/rockylinux/9.5/AppStream/x86_64/os/repodata/repomd.xml
+2025-03-30T13:58:43-0500 INFO Downloading: http://mirror.hnd.cl/rockylinux/9.5/AppStream/x86_64/os/repodata/f8b9db79-1628-4526-8a1e-6a59a66623b9-PRIMARY.xml.gz
+2025-03-30T13:58:43-0500 INFO Downloading: http://mirror.hnd.cl/rockylinux/9.5/AppStream/x86_64/os/repodata/bd5d29fc-0b19-47fa-b062-47b418485919-FILELISTS.xml.gz
+2025-03-30T13:58:43-0500 INFO Downloading: http://mirror.hnd.cl/rockylinux/9.5/AppStream/x86_64/os/repodata/bd5d29fc-0b19-47fa-b062-47b418485919-GROUPS.xml.gz
+2025-03-30T13:58:44-0500 INFO Downloading: http://mirror.hnd.cl/rockylinux/9.5/AppStream/x86_64/os/repodata/bd5d29fc-0b19-47fa-b062-47b418485919-MODULES.yaml.gz
+2025-03-30T13:58:44-0500 INFO Downloading: http://mirror.hnd.cl/rockylinux/9.5/AppStream/x86_64/os/repodata/8953651b-f764-4fb6-87a5-4114efc035f2-UPDATEINFO.xml.gz
+2025-03-30T13:58:48-0500 INFO Downloading: https://mirrors.rockylinux.org/mirrorlist?arch=x86_64&repo=extras-9
+2025-03-30T13:58:49-0500 INFO Downloading: https://rocky-linux-southamerica-east1.production.gcp.mirrors.ctrliq.cloud/pub/rocky//9.5/extras/x86_64/os/repodata/repomd.xml
+2025-03-30T13:58:51-0500 INFO Downloading: https://rocky-linux-southamerica-east1.production.gcp.mirrors.ctrliq.cloud/pub/rocky//9.5/extras/x86_64/os/repodata/2728fb0d-2e9f-4d3e-9a12-3695b2a2af7b-PRIMARY.xml.gz
+2025-03-30T13:58:51-0500 INFO Downloading: https://rocky-linux-southamerica-east1.production.gcp.mirrors.ctrliq.cloud/pub/rocky//9.5/extras/x86_64/os/repodata/7d8c1288-f4db-46fd-a9ee-fe7fdec8d29a-FILELISTS.xml.gz
+2025-04-06T12:36:48-0500 INFO Librepo version: 1.14.5 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.76.1 OpenSSL/3.2.2 zlib/1.2.11 brotli/1.0.9 libidn2/2.3.0 libpsl/0.21.1 (+libidn2/2.3.0) libssh/0.10.4/openssl/zlib nghttp2/1.43.0)
+2025-04-06T12:36:49-0500 INFO Downloading: https://mirrors.fedoraproject.org/metalink?repo=epel-9&arch=x86_64&infra=$infra&content=pub/rocky
+2025-04-06T12:36:50-0500 INFO Downloading: https://mirrors.fedoraproject.org/metalink?repo=epel-9&arch=x86_64&infra=$infra&content=pub/rocky&countme=1
+2025-04-06T12:36:51-0500 INFO Downloading: http://br.mirrors.cicku.me/epel/9/Everything/x86_64/repodata/repomd.xml
+2025-04-06T12:36:52-0500 INFO Downloading: http://br.mirrors.cicku.me/epel/9/Everything/x86_64/repodata/d14e46f16e1ff78a1c6dc4605a2bf697ee57e51f5f025a5c638894adbb4ffa19-primary.xml.gz
+2025-04-06T12:36:52-0500 INFO Downloading: http://br.mirrors.cicku.me/epel/9/Everything/x86_64/repodata/fdf99a12d5290592fbf4563668c5349f0866a943e9c85c749d0e8fc96a2885f9-filelists.xml.gz
+2025-04-06T12:36:52-0500 INFO Downloading: http://br.mirrors.cicku.me/epel/9/Everything/x86_64/repodata/e9ead15fad545d1b18e7c0561afdadcfe824aa2b3a15bee4926544961643f4db-comps-Everything.x86_64.xml
+2025-04-06T12:36:53-0500 INFO Downloading: http://br.mirrors.cicku.me/epel/9/Everything/x86_64/repodata/f115721bf5019d0e97eed39727787de58242b5354344b8833b800032190889d2-prestodelta.xml.gz
+2025-04-06T12:36:53-0500 INFO Downloading: http://br.mirrors.cicku.me/epel/9/Everything/x86_64/repodata/5aaa533d5958fe8a62a97bd2185e4f0725391661b29df1e0da93f111efc2f7f9-updateinfo.xml.bz2
+2025-04-06T12:37:25-0500 INFO Downloading: https://mirrors.rockylinux.org/mirrorlist?arch=x86_64&repo=BaseOS-9&countme=2
+2025-04-06T12:37:26-0500 INFO Downloading: https://rocky-linux-southamerica-west1.production.gcp.mirrors.ctrliq.cloud/pub/rocky//9.5/BaseOS/x86_64/os/repodata/repomd.xml
+2025-04-06T12:37:26-0500 INFO Downloading: https://mirrors.rockylinux.org/mirrorlist?arch=x86_64&repo=BaseOS-9
+2025-04-06T12:37:27-0500 INFO Downloading: https://rocky-linux-southamerica-west1.production.gcp.mirrors.ctrliq.cloud/pub/rocky//9.5/BaseOS/x86_64/os/repodata/repomd.xml
+2025-04-06T12:37:27-0500 INFO Downloading: https://rocky-linux-southamerica-west1.production.gcp.mirrors.ctrliq.cloud/pub/rocky//9.5/BaseOS/x86_64/os/repodata/01ab647d-89a7-46fc-b314-2776587e9ab9-PRIMARY.xml.gz
+2025-04-06T12:37:27-0500 INFO Downloading: https://rocky-linux-southamerica-west1.production.gcp.mirrors.ctrliq.cloud/pub/rocky//9.5/BaseOS/x86_64/os/repodata/cf638d4a-249d-428b-932b-98aa3cfafb37-FILELISTS.xml.gz
+2025-04-06T12:37:27-0500 INFO Downloading: https://rocky-linux-southamerica-west1.production.gcp.mirrors.ctrliq.cloud/pub/rocky//9.5/BaseOS/x86_64/os/repodata/cf638d4a-249d-428b-932b-98aa3cfafb37-GROUPS.xml.gz
+2025-04-06T12:37:28-0500 INFO Downloading: https://rocky-linux-southamerica-west1.production.gcp.mirrors.ctrliq.cloud/pub/rocky//9.5/BaseOS/x86_64/os/repodata/26d0be53-5b9d-4350-a77f-3ef29559e28e-UPDATEINFO.xml.gz
+2025-04-06T12:37:30-0500 INFO Downloading: https://mirrors.rockylinux.org/mirrorlist?arch=x86_64&repo=AppStream-9
+2025-04-06T12:37:31-0500 INFO Downloading: https://rocky-linux-southamerica-east1.production.gcp.mirrors.ctrliq.cloud/pub/rocky//9.5/AppStream/x86_64/os/repodata/repomd.xml
+2025-04-06T12:37:31-0500 INFO Downloading: https://mirrors.rockylinux.org/mirrorlist?arch=x86_64&repo=AppStream-9
+2025-04-06T12:37:32-0500 INFO Downloading: https://rocky-linux-southamerica-east1.production.gcp.mirrors.ctrliq.cloud/pub/rocky//9.5/AppStream/x86_64/os/repodata/repomd.xml
+2025-04-06T12:37:32-0500 INFO Downloading: https://rocky-linux-southamerica-east1.production.gcp.mirrors.ctrliq.cloud/pub/rocky//9.5/AppStream/x86_64/os/repodata/17e5e389-f7d1-4b8b-97eb-599326ccd663-PRIMARY.xml.gz
+2025-04-06T12:37:32-0500 INFO Downloading: https://rocky-linux-southamerica-east1.production.gcp.mirrors.ctrliq.cloud/pub/rocky//9.5/AppStream/x86_64/os/repodata/2e817237-0326-47af-9871-85457c383dcc-FILELISTS.xml.gz
+2025-04-06T12:37:32-0500 INFO Downloading: https://rocky-linux-southamerica-east1.production.gcp.mirrors.ctrliq.cloud/pub/rocky//9.5/AppStream/x86_64/os/repodata/2e817237-0326-47af-9871-85457c383dcc-GROUPS.xml.gz
+2025-04-06T12:37:33-0500 INFO Downloading: https://rocky-linux-southamerica-east1.production.gcp.mirrors.ctrliq.cloud/pub/rocky//9.5/AppStream/x86_64/os/repodata/2e817237-0326-47af-9871-85457c383dcc-MODULES.yaml.gz
+2025-04-06T12:37:33-0500 INFO Downloading: https://rocky-linux-southamerica-east1.production.gcp.mirrors.ctrliq.cloud/pub/rocky//9.5/AppStream/x86_64/os/repodata/8953651b-f764-4fb6-87a5-4114efc035f2-UPDATEINFO.xml.gz
+2025-04-06T12:37:38-0500 INFO Downloading: https://mirrors.rockylinux.org/mirrorlist?arch=x86_64&repo=extras-9
+2025-04-06T12:37:38-0500 INFO Downloading: https://rocky-linux-southamerica-east1.production.gcp.mirrors.ctrliq.cloud/pub/rocky//9.5/extras/x86_64/os/repodata/repomd.xml
+2025-04-06T12:45:11-0500 INFO Librepo version: 1.14.5 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.76.1 OpenSSL/3.2.2 zlib/1.2.11 brotli/1.0.9 libidn2/2.3.0 libpsl/0.21.1 (+libidn2/2.3.0) libssh/0.10.4/openssl/zlib nghttp2/1.43.0)
+2025-04-06T12:50:18-0500 INFO Librepo version: 1.14.5 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.76.1 OpenSSL/3.2.2 zlib/1.2.11 brotli/1.0.9 libidn2/2.3.0 libpsl/0.21.1 (+libidn2/2.3.0) libssh/0.10.4/openssl/zlib nghttp2/1.43.0)
+2025-04-06T12:50:47-0500 INFO Librepo version: 1.14.5 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.76.1 OpenSSL/3.2.2 zlib/1.2.11 brotli/1.0.9 libidn2/2.3.0 libpsl/0.21.1 (+libidn2/2.3.0) libssh/0.10.4/openssl/zlib nghttp2/1.43.0)
+2025-04-06T12:53:21-0500 INFO Librepo version: 1.14.5 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.76.1 OpenSSL/3.2.2 zlib/1.2.11 brotli/1.0.9 libidn2/2.3.0 libpsl/0.21.1 (+libidn2/2.3.0) libssh/0.10.4/openssl/zlib nghttp2/1.43.0)
+2025-04-06T12:54:38-0500 INFO Librepo version: 1.14.5 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.76.1 OpenSSL/3.2.2 zlib/1.2.11 brotli/1.0.9 libidn2/2.3.0 libpsl/0.21.1 (+libidn2/2.3.0) libssh/0.10.4/openssl/zlib nghttp2/1.43.0)
+2025-04-06T12:55:12-0500 INFO Librepo version: 1.14.5 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.76.1 OpenSSL/3.2.2 zlib/1.2.11 brotli/1.0.9 libidn2/2.3.0 libpsl/0.21.1 (+libidn2/2.3.0) libssh/0.10.4/openssl/zlib nghttp2/1.43.0)
+2025-04-06T13:22:13-0500 INFO Librepo version: 1.14.5 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.76.1 OpenSSL/3.2.2 zlib/1.2.11 brotli/1.0.9 libidn2/2.3.0 libpsl/0.21.1 (+libidn2/2.3.0) libssh/0.10.4/openssl/zlib nghttp2/1.43.0)
+2025-04-06T13:22:13-0500 INFO Downloading: https://mirrors.fedoraproject.org/metalink?repo=epel-9&arch=x86_64&infra=$infra&content=pub/rocky
+2025-04-06T13:22:15-0500 INFO Downloading: https://mirrors.fedoraproject.org/metalink?repo=epel-cisco-openh264-9&arch=x86_64
+2025-04-06T13:22:15-0500 INFO Downloading: https://mirrors.rockylinux.org/mirrorlist?arch=x86_64&repo=BaseOS-9
+2025-04-06T13:22:15-0500 INFO Downloading: https://rocky-linux-southamerica-west1.production.gcp.mirrors.ctrliq.cloud/pub/rocky//9.5/BaseOS/x86_64/os/repodata/repomd.xml
+2025-04-06T13:22:16-0500 INFO Downloading: https://mirrors.rockylinux.org/mirrorlist?arch=x86_64&repo=AppStream-9
+2025-04-06T13:22:17-0500 INFO Downloading: https://rocky-linux-southamerica-east1.production.gcp.mirrors.ctrliq.cloud/pub/rocky//9.5/AppStream/x86_64/os/repodata/repomd.xml
+2025-04-06T13:22:18-0500 INFO Downloading: https://mirrors.rockylinux.org/mirrorlist?arch=x86_64&repo=extras-9&countme=2
+2025-04-06T13:22:19-0500 INFO Downloading: https://rocky-linux-southamerica-west1.production.gcp.mirrors.ctrliq.cloud/pub/rocky//9.5/extras/x86_64/os/repodata/repomd.xml
+2025-04-06T14:36:13-0500 INFO Librepo version: 1.14.5 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.76.1 OpenSSL/3.2.2 zlib/1.2.11 brotli/1.0.9 libidn2/2.3.0 libpsl/0.21.1 (+libidn2/2.3.0) libssh/0.10.4/openssl/zlib nghttp2/1.43.0)
+2025-04-06T15:56:13-0500 INFO Librepo version: 1.14.5 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.76.1 OpenSSL/3.2.2 zlib/1.2.11 brotli/1.0.9 libidn2/2.3.0 libpsl/0.21.1 (+libidn2/2.3.0) libssh/0.10.4/openssl/zlib nghttp2/1.43.0)
+2025-04-06T17:12:53-0500 INFO Librepo version: 1.14.5 with CURL_GLOBAL_ACK_EINTR support (libcurl/7.76.1 OpenSSL/3.2.2 zlib/1.2.11 brotli/1.0.9 libidn2/2.3.0 libpsl/0.21.1 (+libidn2/2.3.0) libssh/0.10.4/openssl/zlib nghttp2/1.43.0)
+2025-04-06T17:12:53-0500 INFO Downloading: https://mirrors.fedoraproject.org/metalink?repo=epel-9&arch=x86_64&infra=$infra&content=pub/rocky
+2025-04-06T17:12:56-0500 INFO Downloading: https://mirrors.fedoraproject.org/metalink?repo=epel-cisco-openh264-9&arch=x86_64
+2025-04-06T17:12:56-0500 INFO Downloading: https://mirrors.rockylinux.org/mirrorlist?arch=x86_64&repo=BaseOS-9
+2025-04-06T17:12:57-0500 INFO Downloading: http://mirror.hnd.cl/rockylinux/9.5/BaseOS/x86_64/os/repodata/repomd.xml
+2025-04-06T17:12:57-0500 INFO Downloading: https://mirrors.rockylinux.org/mirrorlist?arch=x86_64&repo=AppStream-9
+2025-04-06T17:12:58-0500 INFO Downloading: https://rocky-linux-southamerica-east1.production.gcp.mirrors.ctrliq.cloud/pub/rocky//9.5/AppStream/x86_64/os/repodata/repomd.xml
+2025-04-06T17:12:59-0500 INFO Downloading: https://mirrors.rockylinux.org/mirrorlist?arch=x86_64&repo=extras-9
+2025-04-06T17:12:59-0500 INFO Downloading: https://rocky-linux-southamerica-east1.production.gcp.mirrors.ctrliq.cloud/pub/rocky//9.5/extras/x86_64/os/repodata/repomd.xml

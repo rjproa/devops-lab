@@ -1,0 +1,525 @@
+[2025-03-13T18:49:06.381Z] [ message] [vmsvc] [827] VMware Tools Version: 12.4.0.48309 (build-23259341)
+[2025-03-13T18:49:06.381Z] [ message] [vmsvc] [827] Guest OS details: architecture='X86' bitness='64' cpeString='cpe:/o:rocky:rocky:9::baseos' distroAddlVersion='9.5 (Blue Onyx)' distroName='Rocky Linux' distroVersion='9.5' familyName='Linux' kernelVersion='5.14.0-503.14.1.el9_5.x86_64' prettyName='Rocky Linux 9.5 (Blue Onyx)'
+[2025-03-13T18:49:06.381Z] [ message] [vmsvc] [827] Log caching is enabled with maxCacheEntries=4096.
+[2025-03-13T18:49:06.381Z] [ message] [vmsvc] [827] Core dump limit set to -1
+[2025-03-13T18:49:06.743Z] [ message] [vmsvc] [827] Cannot load message catalog for domain 'hgfsServer', language 'es', catalog dir '/usr/share/open-vm-tools'.
+[2025-03-13T18:49:06.743Z] [ message] [vmtoolsd] [827] Plugin 'hgfsServer' initialized.
+[2025-03-13T18:49:06.743Z] [ message] [vix] [827] QueryVGAuthConfig: vgauth usage is: 1
+[2025-03-13T18:49:06.743Z] [ message] [vmsvc] [827] Cannot load message catalog for domain 'vix', language 'es', catalog dir '/usr/share/open-vm-tools'.
+[2025-03-13T18:49:06.743Z] [ message] [vmtoolsd] [827] Plugin 'vix' initialized.
+[2025-03-13T18:49:06.743Z] [ message] [vmsvc] [827] Cannot load message catalog for domain 'appInfo', language 'es', catalog dir '/usr/share/open-vm-tools'.
+[2025-03-13T18:49:06.743Z] [ message] [vmtoolsd] [827] Plugin 'appInfo' initialized.
+[2025-03-13T18:49:06.743Z] [ message] [vmsvc] [827] Cannot load message catalog for domain 'componentMgr', language 'es', catalog dir '/usr/share/open-vm-tools'.
+[2025-03-13T18:49:06.743Z] [ message] [vmtoolsd] [827] Plugin 'componentMgr' initialized.
+[2025-03-13T18:49:06.743Z] [ message] [vmsvc] [827] Cannot load message catalog for domain 'guestInfo', language 'es', catalog dir '/usr/share/open-vm-tools'.
+[2025-03-13T18:49:06.743Z] [ message] [vmtoolsd] [827] Plugin 'guestInfo' initialized.
+[2025-03-13T18:49:06.743Z] [ message] [vmsvc] [827] Cannot load message catalog for domain 'powerops', language 'es', catalog dir '/usr/share/open-vm-tools'.
+[2025-03-13T18:49:06.743Z] [ message] [vmtoolsd] [827] Plugin 'powerops' initialized.
+[2025-03-13T18:49:06.743Z] [ message] [resolutionCommon] [827] resolutionCheckForKMS: dlopen succeeded.
+[2025-03-13T18:49:06.746Z] [ message] [resolutionCommon] [827] resolutionCheckForKMS: System support available for resolutionKMS.
+[2025-03-13T18:49:06.746Z] [ message] [vmsvc] [827] Cannot load message catalog for domain 'resolutionKMS', language 'es', catalog dir '/usr/share/open-vm-tools'.
+[2025-03-13T18:49:06.746Z] [ message] [vmtoolsd] [827] Plugin 'resolutionKMS' initialized.
+[2025-03-13T18:49:06.746Z] [ message] [vmsvc] [827] Cannot load message catalog for domain 'timeSync', language 'es', catalog dir '/usr/share/open-vm-tools'.
+[2025-03-13T18:49:06.746Z] [ message] [vmtoolsd] [827] Plugin 'timeSync' initialized.
+[2025-03-13T18:49:06.746Z] [ message] [vmsvc] [827] Cannot load message catalog for domain 'vmbackup', language 'es', catalog dir '/usr/share/open-vm-tools'.
+[2025-03-13T18:49:06.746Z] [ message] [vmtoolsd] [827] Plugin 'vmbackup' initialized.
+[2025-03-13T19:09:33.297Z] [ message] [vix] [827] VixTools_ProcessVixCommand: command 62
+[2025-03-13T19:09:33.310Z] [ message] [vmsvc] [827] Executing script for state change 'OS_PowerOn'.
+[2025-03-13T19:09:33.310Z] [ message] [powerops] [827] Executing script: '/etc/vmware-tools/poweron-vm-default'
+[2025-03-13T19:09:33.923Z] [ message] [vmsvc] [827] Script exit code: 0, success = 1
+[2025-03-13T19:27:01.734Z] [ warning] [GLib-GObject] [827] g_object_get_is_valid_property: object class 'ToolsCoreService' has no property named 'tps_prop_gueststore'
+[2025-03-13T19:27:01.868Z] [ message] [vmtoolsd] [827] Unloading plugin 'vmbackup'.
+[2025-03-13T19:27:01.868Z] [ message] [vmtoolsd] [827] Unloading plugin 'timeSync'.
+[2025-03-13T19:27:01.868Z] [ message] [vmtoolsd] [827] Unloading plugin 'resolutionKMS'.
+[2025-03-13T19:27:01.868Z] [ message] [vmtoolsd] [827] Unloading plugin 'powerops'.
+[2025-03-13T19:27:01.868Z] [ message] [vmtoolsd] [827] Unloading plugin 'guestInfo'.
+[2025-03-13T19:27:01.868Z] [ message] [vmtoolsd] [827] Unloading plugin 'componentMgr'.
+[2025-03-13T19:27:01.868Z] [ message] [vmtoolsd] [827] Unloading plugin 'appInfo'.
+[2025-03-13T19:27:01.868Z] [ message] [vmtoolsd] [827] Unloading plugin 'vix'.
+[2025-03-13T19:27:01.868Z] [ message] [vmtoolsd] [827] Unloading plugin 'hgfsServer'.
+[2025-03-16T12:49:54.464Z] [ message] [vmsvc] [804] VMware Tools Version: 12.4.0.48309 (build-23259341)
+[2025-03-16T12:49:54.466Z] [ message] [vmsvc] [804] Guest OS details: architecture='X86' bitness='64' cpeString='cpe:/o:rocky:rocky:9::baseos' distroAddlVersion='9.5 (Blue Onyx)' distroName='Rocky Linux' distroVersion='9.5' familyName='Linux' kernelVersion='5.14.0-503.31.1.el9_5.x86_64' prettyName='Rocky Linux 9.5 (Blue Onyx)'
+[2025-03-16T12:49:54.464Z] [ message] [vmsvc] [804] Log caching is enabled with maxCacheEntries=4096.
+[2025-03-16T12:49:54.466Z] [ message] [vmsvc] [804] Core dump limit set to -1
+[2025-03-16T12:49:55.564Z] [ message] [vmsvc] [804] Cannot load message catalog for domain 'hgfsServer', language 'es', catalog dir '/usr/share/open-vm-tools'.
+[2025-03-16T12:49:55.567Z] [ message] [vmtoolsd] [804] Plugin 'hgfsServer' initialized.
+[2025-03-16T12:49:55.567Z] [ message] [vix] [804] QueryVGAuthConfig: vgauth usage is: 1
+[2025-03-16T12:49:55.567Z] [ message] [vmsvc] [804] Cannot load message catalog for domain 'vix', language 'es', catalog dir '/usr/share/open-vm-tools'.
+[2025-03-16T12:49:55.567Z] [ message] [vmtoolsd] [804] Plugin 'vix' initialized.
+[2025-03-16T12:49:55.567Z] [ message] [vmsvc] [804] Cannot load message catalog for domain 'appInfo', language 'es', catalog dir '/usr/share/open-vm-tools'.
+[2025-03-16T12:49:55.567Z] [ message] [vmtoolsd] [804] Plugin 'appInfo' initialized.
+[2025-03-16T12:49:55.567Z] [ message] [vmsvc] [804] Cannot load message catalog for domain 'componentMgr', language 'es', catalog dir '/usr/share/open-vm-tools'.
+[2025-03-16T12:49:55.567Z] [ message] [vmtoolsd] [804] Plugin 'componentMgr' initialized.
+[2025-03-16T12:49:55.567Z] [ message] [vmsvc] [804] Cannot load message catalog for domain 'guestInfo', language 'es', catalog dir '/usr/share/open-vm-tools'.
+[2025-03-16T12:49:55.567Z] [ message] [vmtoolsd] [804] Plugin 'guestInfo' initialized.
+[2025-03-16T12:49:55.568Z] [ message] [vmsvc] [804] Cannot load message catalog for domain 'powerops', language 'es', catalog dir '/usr/share/open-vm-tools'.
+[2025-03-16T12:49:55.568Z] [ message] [vmtoolsd] [804] Plugin 'powerops' initialized.
+[2025-03-16T12:49:55.568Z] [ message] [resolutionCommon] [804] resolutionCheckForKMS: dlopen succeeded.
+[2025-03-16T12:49:55.595Z] [ message] [resolutionCommon] [804] resolutionCheckForKMS: System support available for resolutionKMS.
+[2025-03-16T12:49:55.595Z] [ message] [vmsvc] [804] Cannot load message catalog for domain 'resolutionKMS', language 'es', catalog dir '/usr/share/open-vm-tools'.
+[2025-03-16T12:49:55.595Z] [ message] [vmtoolsd] [804] Plugin 'resolutionKMS' initialized.
+[2025-03-16T12:49:55.595Z] [ message] [vmsvc] [804] Cannot load message catalog for domain 'timeSync', language 'es', catalog dir '/usr/share/open-vm-tools'.
+[2025-03-16T12:49:55.595Z] [ message] [vmtoolsd] [804] Plugin 'timeSync' initialized.
+[2025-03-16T12:49:55.595Z] [ message] [vmsvc] [804] Cannot load message catalog for domain 'vmbackup', language 'es', catalog dir '/usr/share/open-vm-tools'.
+[2025-03-16T12:49:55.595Z] [ message] [vmtoolsd] [804] Plugin 'vmbackup' initialized.
+[2025-03-16T12:49:55.626Z] [ message] [vix] [804] VixTools_ProcessVixCommand: command 62
+[2025-03-16T12:49:57.512Z] [ message] [vix] [804] VixTools_ProcessVixCommand: command 62
+[2025-03-16T12:49:57.513Z] [ message] [vix] [804] ToolsDaemonTcloReceiveVixCommand: command 62, additionalError = 17
+[2025-03-16T12:49:57.521Z] [ message] [vmsvc] [804] Executing script for state change 'OS_PowerOn'.
+[2025-03-16T12:49:57.521Z] [ message] [powerops] [804] Executing script: '/etc/vmware-tools/poweron-vm-default'
+[2025-03-16T12:49:58.892Z] [ message] [vmsvc] [804] Script exit code: 0, success = 1
+[2025-03-16T13:47:26.702Z] [ warning] [GLib-GObject] [804] g_object_get_is_valid_property: object class 'ToolsCoreService' has no property named 'tps_prop_gueststore'
+[2025-03-16T13:47:27.353Z] [ message] [vmtoolsd] [804] Unloading plugin 'vmbackup'.
+[2025-03-16T13:47:27.364Z] [ message] [vmtoolsd] [804] Unloading plugin 'timeSync'.
+[2025-03-16T13:47:27.364Z] [ message] [vmtoolsd] [804] Unloading plugin 'resolutionKMS'.
+[2025-03-16T13:47:27.364Z] [ message] [vmtoolsd] [804] Unloading plugin 'powerops'.
+[2025-03-16T13:47:27.364Z] [ message] [vmtoolsd] [804] Unloading plugin 'guestInfo'.
+[2025-03-16T13:47:27.364Z] [ message] [vmtoolsd] [804] Unloading plugin 'componentMgr'.
+[2025-03-16T13:47:27.378Z] [ message] [vmtoolsd] [804] Unloading plugin 'appInfo'.
+[2025-03-16T13:47:27.378Z] [ message] [vmtoolsd] [804] Unloading plugin 'vix'.
+[2025-03-16T13:47:27.378Z] [ message] [vmtoolsd] [804] Unloading plugin 'hgfsServer'.
+[2025-03-16T13:48:26.656Z] [ message] [vmsvc] [801] VMware Tools Version: 12.4.0.48309 (build-23259341)
+[2025-03-16T13:48:26.658Z] [ message] [vmsvc] [801] Guest OS details: architecture='X86' bitness='64' cpeString='cpe:/o:rocky:rocky:9::baseos' distroAddlVersion='9.5 (Blue Onyx)' distroName='Rocky Linux' distroVersion='9.5' familyName='Linux' kernelVersion='5.14.0-503.31.1.el9_5.x86_64' prettyName='Rocky Linux 9.5 (Blue Onyx)'
+[2025-03-16T13:48:26.656Z] [ message] [vmsvc] [801] Log caching is enabled with maxCacheEntries=4096.
+[2025-03-16T13:48:26.659Z] [ message] [vmsvc] [801] Core dump limit set to -1
+[2025-03-16T13:48:27.061Z] [ message] [vmsvc] [801] Cannot load message catalog for domain 'hgfsServer', language 'es', catalog dir '/usr/share/open-vm-tools'.
+[2025-03-16T13:48:27.061Z] [ message] [vmtoolsd] [801] Plugin 'hgfsServer' initialized.
+[2025-03-16T13:48:27.061Z] [ message] [vix] [801] QueryVGAuthConfig: vgauth usage is: 1
+[2025-03-16T13:48:27.061Z] [ message] [vmsvc] [801] Cannot load message catalog for domain 'vix', language 'es', catalog dir '/usr/share/open-vm-tools'.
+[2025-03-16T13:48:27.061Z] [ message] [vmtoolsd] [801] Plugin 'vix' initialized.
+[2025-03-16T13:48:27.061Z] [ message] [vmsvc] [801] Cannot load message catalog for domain 'appInfo', language 'es', catalog dir '/usr/share/open-vm-tools'.
+[2025-03-16T13:48:27.061Z] [ message] [vmtoolsd] [801] Plugin 'appInfo' initialized.
+[2025-03-16T13:48:27.061Z] [ message] [vmsvc] [801] Cannot load message catalog for domain 'componentMgr', language 'es', catalog dir '/usr/share/open-vm-tools'.
+[2025-03-16T13:48:27.061Z] [ message] [vmtoolsd] [801] Plugin 'componentMgr' initialized.
+[2025-03-16T13:48:27.061Z] [ message] [vmsvc] [801] Cannot load message catalog for domain 'guestInfo', language 'es', catalog dir '/usr/share/open-vm-tools'.
+[2025-03-16T13:48:27.061Z] [ message] [vmtoolsd] [801] Plugin 'guestInfo' initialized.
+[2025-03-16T13:48:27.061Z] [ message] [vmsvc] [801] Cannot load message catalog for domain 'powerops', language 'es', catalog dir '/usr/share/open-vm-tools'.
+[2025-03-16T13:48:27.061Z] [ message] [vmtoolsd] [801] Plugin 'powerops' initialized.
+[2025-03-16T13:48:27.061Z] [ message] [resolutionCommon] [801] resolutionCheckForKMS: dlopen succeeded.
+[2025-03-16T13:48:27.065Z] [ message] [resolutionCommon] [801] resolutionCheckForKMS: System support available for resolutionKMS.
+[2025-03-16T13:48:27.066Z] [ message] [vmsvc] [801] Cannot load message catalog for domain 'resolutionKMS', language 'es', catalog dir '/usr/share/open-vm-tools'.
+[2025-03-16T13:48:27.066Z] [ message] [vmtoolsd] [801] Plugin 'resolutionKMS' initialized.
+[2025-03-16T13:48:27.066Z] [ message] [vmsvc] [801] Cannot load message catalog for domain 'timeSync', language 'es', catalog dir '/usr/share/open-vm-tools'.
+[2025-03-16T13:48:27.066Z] [ message] [vmtoolsd] [801] Plugin 'timeSync' initialized.
+[2025-03-16T13:48:27.066Z] [ message] [vmsvc] [801] Cannot load message catalog for domain 'vmbackup', language 'es', catalog dir '/usr/share/open-vm-tools'.
+[2025-03-16T13:48:27.066Z] [ message] [vmtoolsd] [801] Plugin 'vmbackup' initialized.
+[2025-03-16T13:48:27.072Z] [ message] [vix] [801] VixTools_ProcessVixCommand: command 62
+[2025-03-16T13:48:27.093Z] [ message] [vix] [801] VixTools_ProcessVixCommand: command 62
+[2025-03-16T13:48:27.095Z] [ message] [vix] [801] ToolsDaemonTcloReceiveVixCommand: command 62, additionalError = 17
+[2025-03-16T13:48:27.108Z] [ message] [vmsvc] [801] Executing script for state change 'OS_PowerOn'.
+[2025-03-16T13:48:27.108Z] [ message] [powerops] [801] Executing script: '/etc/vmware-tools/poweron-vm-default'
+[2025-03-16T13:48:27.762Z] [ message] [vmsvc] [801] Script exit code: 0, success = 1
+[2025-03-16T18:36:26.424Z] [ warning] [GLib-GObject] [801] g_object_get_is_valid_property: object class 'ToolsCoreService' has no property named 'tps_prop_gueststore'
+[2025-03-16T18:36:26.778Z] [ message] [vmtoolsd] [801] Unloading plugin 'vmbackup'.
+[2025-03-16T18:36:26.786Z] [ message] [vmtoolsd] [801] Unloading plugin 'timeSync'.
+[2025-03-16T18:36:26.786Z] [ message] [vmtoolsd] [801] Unloading plugin 'resolutionKMS'.
+[2025-03-16T18:36:26.799Z] [ message] [vmtoolsd] [801] Unloading plugin 'powerops'.
+[2025-03-16T18:36:26.799Z] [ message] [vmtoolsd] [801] Unloading plugin 'guestInfo'.
+[2025-03-16T18:36:26.799Z] [ message] [vmtoolsd] [801] Unloading plugin 'componentMgr'.
+[2025-03-16T18:36:26.799Z] [ message] [vmtoolsd] [801] Unloading plugin 'appInfo'.
+[2025-03-16T18:36:26.809Z] [ message] [vmtoolsd] [801] Unloading plugin 'vix'.
+[2025-03-16T18:36:26.809Z] [ message] [vmtoolsd] [801] Unloading plugin 'hgfsServer'.
+[2025-03-16T18:57:55.008Z] [ message] [vmsvc] [800] VMware Tools Version: 12.4.0.48309 (build-23259341)
+[2025-03-16T18:57:55.021Z] [ message] [vmsvc] [800] Guest OS details: architecture='X86' bitness='64' cpeString='cpe:/o:rocky:rocky:9::baseos' distroAddlVersion='9.5 (Blue Onyx)' distroName='Rocky Linux' distroVersion='9.5' familyName='Linux' kernelVersion='5.14.0-503.31.1.el9_5.x86_64' prettyName='Rocky Linux 9.5 (Blue Onyx)'
+[2025-03-16T18:57:55.008Z] [ message] [vmsvc] [800] Log caching is enabled with maxCacheEntries=4096.
+[2025-03-16T18:57:55.021Z] [ message] [vmsvc] [800] Core dump limit set to -1
+[2025-03-16T18:57:55.531Z] [ message] [vmsvc] [800] Cannot load message catalog for domain 'hgfsServer', language 'es', catalog dir '/usr/share/open-vm-tools'.
+[2025-03-16T18:57:55.543Z] [ message] [vmtoolsd] [800] Plugin 'hgfsServer' initialized.
+[2025-03-16T18:57:55.543Z] [ message] [vix] [800] QueryVGAuthConfig: vgauth usage is: 1
+[2025-03-16T18:57:55.543Z] [ message] [vmsvc] [800] Cannot load message catalog for domain 'vix', language 'es', catalog dir '/usr/share/open-vm-tools'.
+[2025-03-16T18:57:55.543Z] [ message] [vmtoolsd] [800] Plugin 'vix' initialized.
+[2025-03-16T18:57:55.544Z] [ message] [vmsvc] [800] Cannot load message catalog for domain 'appInfo', language 'es', catalog dir '/usr/share/open-vm-tools'.
+[2025-03-16T18:57:55.544Z] [ message] [vmtoolsd] [800] Plugin 'appInfo' initialized.
+[2025-03-16T18:57:55.544Z] [ message] [vmsvc] [800] Cannot load message catalog for domain 'componentMgr', language 'es', catalog dir '/usr/share/open-vm-tools'.
+[2025-03-16T18:57:55.544Z] [ message] [vmtoolsd] [800] Plugin 'componentMgr' initialized.
+[2025-03-16T18:57:55.544Z] [ message] [vmsvc] [800] Cannot load message catalog for domain 'guestInfo', language 'es', catalog dir '/usr/share/open-vm-tools'.
+[2025-03-16T18:57:55.544Z] [ message] [vmtoolsd] [800] Plugin 'guestInfo' initialized.
+[2025-03-16T18:57:55.553Z] [ message] [vmsvc] [800] Cannot load message catalog for domain 'powerops', language 'es', catalog dir '/usr/share/open-vm-tools'.
+[2025-03-16T18:57:55.554Z] [ message] [vmtoolsd] [800] Plugin 'powerops' initialized.
+[2025-03-16T18:57:55.554Z] [ message] [resolutionCommon] [800] resolutionCheckForKMS: dlopen succeeded.
+[2025-03-16T18:57:55.562Z] [ message] [resolutionCommon] [800] resolutionCheckForKMS: System support available for resolutionKMS.
+[2025-03-16T18:57:55.562Z] [ message] [vmsvc] [800] Cannot load message catalog for domain 'resolutionKMS', language 'es', catalog dir '/usr/share/open-vm-tools'.
+[2025-03-16T18:57:55.562Z] [ message] [vmtoolsd] [800] Plugin 'resolutionKMS' initialized.
+[2025-03-16T18:57:55.562Z] [ message] [vmsvc] [800] Cannot load message catalog for domain 'timeSync', language 'es', catalog dir '/usr/share/open-vm-tools'.
+[2025-03-16T18:57:55.562Z] [ message] [vmtoolsd] [800] Plugin 'timeSync' initialized.
+[2025-03-16T18:57:55.562Z] [ message] [vmsvc] [800] Cannot load message catalog for domain 'vmbackup', language 'es', catalog dir '/usr/share/open-vm-tools'.
+[2025-03-16T18:57:55.562Z] [ message] [vmtoolsd] [800] Plugin 'vmbackup' initialized.
+[2025-03-16T18:57:55.617Z] [ message] [vix] [800] VixTools_ProcessVixCommand: command 62
+[2025-03-16T18:57:55.721Z] [ message] [vix] [800] VixTools_ProcessVixCommand: command 62
+[2025-03-16T18:57:55.721Z] [ message] [vix] [800] ToolsDaemonTcloReceiveVixCommand: command 62, additionalError = 17
+[2025-03-16T18:57:55.722Z] [ message] [vmsvc] [800] Executing script for state change 'OS_PowerOn'.
+[2025-03-16T18:57:55.722Z] [ message] [powerops] [800] Executing script: '/etc/vmware-tools/poweron-vm-default'
+[2025-03-16T18:57:56.479Z] [ message] [vmsvc] [800] Script exit code: 0, success = 1
+[2025-03-16T19:01:19.731Z] [ warning] [GLib-GObject] [800] g_object_get_is_valid_property: object class 'ToolsCoreService' has no property named 'tps_prop_gueststore'
+[2025-03-16T19:01:19.739Z] [ message] [vmtoolsd] [800] Unloading plugin 'vmbackup'.
+[2025-03-16T19:01:19.739Z] [ message] [vmtoolsd] [800] Unloading plugin 'timeSync'.
+[2025-03-16T19:01:19.739Z] [ message] [vmtoolsd] [800] Unloading plugin 'resolutionKMS'.
+[2025-03-16T19:01:19.739Z] [ message] [vmtoolsd] [800] Unloading plugin 'powerops'.
+[2025-03-16T19:01:19.739Z] [ message] [vmtoolsd] [800] Unloading plugin 'guestInfo'.
+[2025-03-16T19:01:19.739Z] [ message] [vmtoolsd] [800] Unloading plugin 'componentMgr'.
+[2025-03-16T19:01:19.739Z] [ message] [vmtoolsd] [800] Unloading plugin 'appInfo'.
+[2025-03-16T19:01:19.739Z] [ message] [vmtoolsd] [800] Unloading plugin 'vix'.
+[2025-03-16T19:01:19.739Z] [ message] [vmtoolsd] [800] Unloading plugin 'hgfsServer'.
+[2025-03-23T14:39:21.019Z] [ message] [vmsvc] [801] VMware Tools Version: 12.4.0.48309 (build-23259341)
+[2025-03-23T14:39:21.028Z] [ message] [vmsvc] [801] Guest OS details: architecture='X86' bitness='64' cpeString='cpe:/o:rocky:rocky:9::baseos' distroAddlVersion='9.5 (Blue Onyx)' distroName='Rocky Linux' distroVersion='9.5' familyName='Linux' kernelVersion='5.14.0-503.31.1.el9_5.x86_64' prettyName='Rocky Linux 9.5 (Blue Onyx)'
+[2025-03-23T14:39:21.019Z] [ message] [vmsvc] [801] Log caching is enabled with maxCacheEntries=4096.
+[2025-03-23T14:39:21.028Z] [ message] [vmsvc] [801] Core dump limit set to -1
+[2025-03-23T14:39:21.603Z] [ message] [vmsvc] [801] Cannot load message catalog for domain 'hgfsServer', language 'es', catalog dir '/usr/share/open-vm-tools'.
+[2025-03-23T14:39:21.604Z] [ message] [vmtoolsd] [801] Plugin 'hgfsServer' initialized.
+[2025-03-23T14:39:21.604Z] [ message] [vix] [801] QueryVGAuthConfig: vgauth usage is: 1
+[2025-03-23T14:39:21.604Z] [ message] [vmsvc] [801] Cannot load message catalog for domain 'vix', language 'es', catalog dir '/usr/share/open-vm-tools'.
+[2025-03-23T14:39:21.604Z] [ message] [vmtoolsd] [801] Plugin 'vix' initialized.
+[2025-03-23T14:39:21.604Z] [ message] [vmsvc] [801] Cannot load message catalog for domain 'appInfo', language 'es', catalog dir '/usr/share/open-vm-tools'.
+[2025-03-23T14:39:21.604Z] [ message] [vmtoolsd] [801] Plugin 'appInfo' initialized.
+[2025-03-23T14:39:21.604Z] [ message] [vmsvc] [801] Cannot load message catalog for domain 'componentMgr', language 'es', catalog dir '/usr/share/open-vm-tools'.
+[2025-03-23T14:39:21.604Z] [ message] [vmtoolsd] [801] Plugin 'componentMgr' initialized.
+[2025-03-23T14:39:21.605Z] [ message] [vmsvc] [801] Cannot load message catalog for domain 'guestInfo', language 'es', catalog dir '/usr/share/open-vm-tools'.
+[2025-03-23T14:39:21.605Z] [ message] [vmtoolsd] [801] Plugin 'guestInfo' initialized.
+[2025-03-23T14:39:21.606Z] [ message] [vmsvc] [801] Cannot load message catalog for domain 'powerops', language 'es', catalog dir '/usr/share/open-vm-tools'.
+[2025-03-23T14:39:21.607Z] [ message] [vmtoolsd] [801] Plugin 'powerops' initialized.
+[2025-03-23T14:39:21.607Z] [ message] [resolutionCommon] [801] resolutionCheckForKMS: dlopen succeeded.
+[2025-03-23T14:39:21.614Z] [ message] [resolutionCommon] [801] resolutionCheckForKMS: System support available for resolutionKMS.
+[2025-03-23T14:39:21.616Z] [ message] [vmsvc] [801] Cannot load message catalog for domain 'resolutionKMS', language 'es', catalog dir '/usr/share/open-vm-tools'.
+[2025-03-23T14:39:21.616Z] [ message] [vmtoolsd] [801] Plugin 'resolutionKMS' initialized.
+[2025-03-23T14:39:21.616Z] [ message] [vmsvc] [801] Cannot load message catalog for domain 'timeSync', language 'es', catalog dir '/usr/share/open-vm-tools'.
+[2025-03-23T14:39:21.616Z] [ message] [vmtoolsd] [801] Plugin 'timeSync' initialized.
+[2025-03-23T14:39:21.616Z] [ message] [vmsvc] [801] Cannot load message catalog for domain 'vmbackup', language 'es', catalog dir '/usr/share/open-vm-tools'.
+[2025-03-23T14:39:21.616Z] [ message] [vmtoolsd] [801] Plugin 'vmbackup' initialized.
+[2025-03-23T14:39:21.625Z] [ message] [vix] [801] VixTools_ProcessVixCommand: command 62
+[2025-03-23T14:39:21.628Z] [ message] [vix] [801] ToolsDaemonTcloReceiveVixCommand: command 62, additionalError = 17
+[2025-03-23T14:39:21.693Z] [ message] [vix] [801] VixTools_ProcessVixCommand: command 62
+[2025-03-23T14:39:21.695Z] [ message] [vix] [801] ToolsDaemonTcloReceiveVixCommand: command 62, additionalError = 17
+[2025-03-23T14:39:21.698Z] [ message] [vmsvc] [801] Executing script for state change 'OS_PowerOn'.
+[2025-03-23T14:39:21.698Z] [ message] [powerops] [801] Executing script: '/etc/vmware-tools/poweron-vm-default'
+[2025-03-23T14:39:22.768Z] [ message] [vmsvc] [801] Script exit code: 0, success = 1
+[2025-03-23T16:16:37.077Z] [ warning] [GLib-GObject] [801] g_object_get_is_valid_property: object class 'ToolsCoreService' has no property named 'tps_prop_gueststore'
+[2025-03-23T16:16:37.187Z] [ message] [vmtoolsd] [801] Unloading plugin 'vmbackup'.
+[2025-03-23T16:16:37.190Z] [ message] [vmtoolsd] [801] Unloading plugin 'timeSync'.
+[2025-03-23T16:16:37.191Z] [ message] [vmtoolsd] [801] Unloading plugin 'resolutionKMS'.
+[2025-03-23T16:16:37.191Z] [ message] [vmtoolsd] [801] Unloading plugin 'powerops'.
+[2025-03-23T16:16:37.191Z] [ message] [vmtoolsd] [801] Unloading plugin 'guestInfo'.
+[2025-03-23T16:16:37.191Z] [ message] [vmtoolsd] [801] Unloading plugin 'componentMgr'.
+[2025-03-23T16:16:37.191Z] [ message] [vmtoolsd] [801] Unloading plugin 'appInfo'.
+[2025-03-23T16:16:37.202Z] [ message] [vmtoolsd] [801] Unloading plugin 'vix'.
+[2025-03-23T16:16:37.205Z] [ message] [vmtoolsd] [801] Unloading plugin 'hgfsServer'.
+[2025-03-23T16:17:29.021Z] [ message] [vmsvc] [804] VMware Tools Version: 12.4.0.48309 (build-23259341)
+[2025-03-23T16:17:29.027Z] [ message] [vmsvc] [804] Guest OS details: architecture='X86' bitness='64' cpeString='cpe:/o:rocky:rocky:9::baseos' distroAddlVersion='9.5 (Blue Onyx)' distroName='Rocky Linux' distroVersion='9.5' familyName='Linux' kernelVersion='5.14.0-503.31.1.el9_5.x86_64' prettyName='Rocky Linux 9.5 (Blue Onyx)'
+[2025-03-23T16:17:29.021Z] [ message] [vmsvc] [804] Log caching is enabled with maxCacheEntries=4096.
+[2025-03-23T16:17:29.027Z] [ message] [vmsvc] [804] Core dump limit set to -1
+[2025-03-23T16:17:29.452Z] [ message] [vmsvc] [804] Cannot load message catalog for domain 'hgfsServer', language 'es', catalog dir '/usr/share/open-vm-tools'.
+[2025-03-23T16:17:29.452Z] [ message] [vmtoolsd] [804] Plugin 'hgfsServer' initialized.
+[2025-03-23T16:17:29.452Z] [ message] [vix] [804] QueryVGAuthConfig: vgauth usage is: 1
+[2025-03-23T16:17:29.452Z] [ message] [vmsvc] [804] Cannot load message catalog for domain 'vix', language 'es', catalog dir '/usr/share/open-vm-tools'.
+[2025-03-23T16:17:29.452Z] [ message] [vmtoolsd] [804] Plugin 'vix' initialized.
+[2025-03-23T16:17:29.452Z] [ message] [vmsvc] [804] Cannot load message catalog for domain 'appInfo', language 'es', catalog dir '/usr/share/open-vm-tools'.
+[2025-03-23T16:17:29.453Z] [ message] [vmtoolsd] [804] Plugin 'appInfo' initialized.
+[2025-03-23T16:17:29.453Z] [ message] [vmsvc] [804] Cannot load message catalog for domain 'componentMgr', language 'es', catalog dir '/usr/share/open-vm-tools'.
+[2025-03-23T16:17:29.453Z] [ message] [vmtoolsd] [804] Plugin 'componentMgr' initialized.
+[2025-03-23T16:17:29.453Z] [ message] [vmsvc] [804] Cannot load message catalog for domain 'guestInfo', language 'es', catalog dir '/usr/share/open-vm-tools'.
+[2025-03-23T16:17:29.453Z] [ message] [vmtoolsd] [804] Plugin 'guestInfo' initialized.
+[2025-03-23T16:17:29.455Z] [ message] [vmsvc] [804] Cannot load message catalog for domain 'powerops', language 'es', catalog dir '/usr/share/open-vm-tools'.
+[2025-03-23T16:17:29.455Z] [ message] [vmtoolsd] [804] Plugin 'powerops' initialized.
+[2025-03-23T16:17:29.455Z] [ message] [resolutionCommon] [804] resolutionCheckForKMS: dlopen succeeded.
+[2025-03-23T16:17:29.468Z] [ message] [resolutionCommon] [804] resolutionCheckForKMS: System support available for resolutionKMS.
+[2025-03-23T16:17:29.476Z] [ message] [vmsvc] [804] Cannot load message catalog for domain 'resolutionKMS', language 'es', catalog dir '/usr/share/open-vm-tools'.
+[2025-03-23T16:17:29.476Z] [ message] [vmtoolsd] [804] Plugin 'resolutionKMS' initialized.
+[2025-03-23T16:17:29.476Z] [ message] [vmsvc] [804] Cannot load message catalog for domain 'timeSync', language 'es', catalog dir '/usr/share/open-vm-tools'.
+[2025-03-23T16:17:29.476Z] [ message] [vmtoolsd] [804] Plugin 'timeSync' initialized.
+[2025-03-23T16:17:29.476Z] [ message] [vmsvc] [804] Cannot load message catalog for domain 'vmbackup', language 'es', catalog dir '/usr/share/open-vm-tools'.
+[2025-03-23T16:17:29.476Z] [ message] [vmtoolsd] [804] Plugin 'vmbackup' initialized.
+[2025-03-23T16:17:29.490Z] [ message] [vix] [804] VixTools_ProcessVixCommand: command 62
+[2025-03-23T16:17:29.497Z] [ message] [vix] [804] ToolsDaemonTcloReceiveVixCommand: command 62, additionalError = 17
+[2025-03-23T16:17:29.599Z] [ message] [vix] [804] VixTools_ProcessVixCommand: command 62
+[2025-03-23T16:17:29.600Z] [ message] [vix] [804] ToolsDaemonTcloReceiveVixCommand: command 62, additionalError = 17
+[2025-03-23T16:17:29.602Z] [ message] [vmsvc] [804] Executing script for state change 'OS_PowerOn'.
+[2025-03-23T16:17:29.602Z] [ message] [powerops] [804] Executing script: '/etc/vmware-tools/poweron-vm-default'
+[2025-03-23T16:17:30.213Z] [ message] [vmsvc] [804] Script exit code: 0, success = 1
+[2025-03-23T17:01:09.568Z] [ warning] [GLib-GObject] [804] g_object_get_is_valid_property: object class 'ToolsCoreService' has no property named 'tps_prop_gueststore'
+[2025-03-23T17:01:09.678Z] [ message] [vmtoolsd] [804] Unloading plugin 'vmbackup'.
+[2025-03-23T17:01:09.678Z] [ message] [vmtoolsd] [804] Unloading plugin 'timeSync'.
+[2025-03-23T17:01:09.678Z] [ message] [vmtoolsd] [804] Unloading plugin 'resolutionKMS'.
+[2025-03-23T17:01:09.678Z] [ message] [vmtoolsd] [804] Unloading plugin 'powerops'.
+[2025-03-23T17:01:09.678Z] [ message] [vmtoolsd] [804] Unloading plugin 'guestInfo'.
+[2025-03-23T17:01:09.681Z] [ message] [vmtoolsd] [804] Unloading plugin 'componentMgr'.
+[2025-03-23T17:01:09.681Z] [ message] [vmtoolsd] [804] Unloading plugin 'appInfo'.
+[2025-03-23T17:01:09.681Z] [ message] [vmtoolsd] [804] Unloading plugin 'vix'.
+[2025-03-23T17:01:09.681Z] [ message] [vmtoolsd] [804] Unloading plugin 'hgfsServer'.
+[2025-03-23T17:02:34.096Z] [ message] [vmsvc] [799] VMware Tools Version: 12.4.0.48309 (build-23259341)
+[2025-03-23T17:02:34.100Z] [ message] [vmsvc] [799] Guest OS details: architecture='X86' bitness='64' cpeString='cpe:/o:rocky:rocky:9::baseos' distroAddlVersion='9.5 (Blue Onyx)' distroName='Rocky Linux' distroVersion='9.5' familyName='Linux' kernelVersion='5.14.0-503.31.1.el9_5.x86_64' prettyName='Rocky Linux 9.5 (Blue Onyx)'
+[2025-03-23T17:02:34.096Z] [ message] [vmsvc] [799] Log caching is enabled with maxCacheEntries=4096.
+[2025-03-23T17:02:34.100Z] [ message] [vmsvc] [799] Core dump limit set to -1
+[2025-03-23T17:02:34.787Z] [ message] [vmsvc] [799] Cannot load message catalog for domain 'hgfsServer', language 'es', catalog dir '/usr/share/open-vm-tools'.
+[2025-03-23T17:02:34.787Z] [ message] [vmtoolsd] [799] Plugin 'hgfsServer' initialized.
+[2025-03-23T17:02:34.787Z] [ message] [vix] [799] QueryVGAuthConfig: vgauth usage is: 1
+[2025-03-23T17:02:34.787Z] [ message] [vmsvc] [799] Cannot load message catalog for domain 'vix', language 'es', catalog dir '/usr/share/open-vm-tools'.
+[2025-03-23T17:02:34.787Z] [ message] [vmtoolsd] [799] Plugin 'vix' initialized.
+[2025-03-23T17:02:34.787Z] [ message] [vmsvc] [799] Cannot load message catalog for domain 'appInfo', language 'es', catalog dir '/usr/share/open-vm-tools'.
+[2025-03-23T17:02:34.787Z] [ message] [vmtoolsd] [799] Plugin 'appInfo' initialized.
+[2025-03-23T17:02:34.787Z] [ message] [vmsvc] [799] Cannot load message catalog for domain 'componentMgr', language 'es', catalog dir '/usr/share/open-vm-tools'.
+[2025-03-23T17:02:34.787Z] [ message] [vmtoolsd] [799] Plugin 'componentMgr' initialized.
+[2025-03-23T17:02:34.789Z] [ message] [vmsvc] [799] Cannot load message catalog for domain 'guestInfo', language 'es', catalog dir '/usr/share/open-vm-tools'.
+[2025-03-23T17:02:34.789Z] [ message] [vmtoolsd] [799] Plugin 'guestInfo' initialized.
+[2025-03-23T17:02:34.789Z] [ message] [vmsvc] [799] Cannot load message catalog for domain 'powerops', language 'es', catalog dir '/usr/share/open-vm-tools'.
+[2025-03-23T17:02:34.789Z] [ message] [vmtoolsd] [799] Plugin 'powerops' initialized.
+[2025-03-23T17:02:34.789Z] [ message] [resolutionCommon] [799] resolutionCheckForKMS: dlopen succeeded.
+[2025-03-23T17:02:34.799Z] [ message] [resolutionCommon] [799] resolutionCheckForKMS: System support available for resolutionKMS.
+[2025-03-23T17:02:34.799Z] [ message] [vmsvc] [799] Cannot load message catalog for domain 'resolutionKMS', language 'es', catalog dir '/usr/share/open-vm-tools'.
+[2025-03-23T17:02:34.799Z] [ message] [vmtoolsd] [799] Plugin 'resolutionKMS' initialized.
+[2025-03-23T17:02:34.799Z] [ message] [vmsvc] [799] Cannot load message catalog for domain 'timeSync', language 'es', catalog dir '/usr/share/open-vm-tools'.
+[2025-03-23T17:02:34.799Z] [ message] [vmtoolsd] [799] Plugin 'timeSync' initialized.
+[2025-03-23T17:02:34.799Z] [ message] [vmsvc] [799] Cannot load message catalog for domain 'vmbackup', language 'es', catalog dir '/usr/share/open-vm-tools'.
+[2025-03-23T17:02:34.799Z] [ message] [vmtoolsd] [799] Plugin 'vmbackup' initialized.
+[2025-03-23T17:02:34.807Z] [ message] [vix] [799] VixTools_ProcessVixCommand: command 62
+[2025-03-23T17:02:34.908Z] [ message] [vix] [799] VixTools_ProcessVixCommand: command 62
+[2025-03-23T17:02:34.909Z] [ message] [vix] [799] ToolsDaemonTcloReceiveVixCommand: command 62, additionalError = 17
+[2025-03-23T17:02:34.916Z] [ message] [vmsvc] [799] Executing script for state change 'OS_PowerOn'.
+[2025-03-23T17:02:34.916Z] [ message] [powerops] [799] Executing script: '/etc/vmware-tools/poweron-vm-default'
+[2025-03-23T17:02:36.064Z] [ message] [vmsvc] [799] Script exit code: 0, success = 1
+[2025-03-23T17:04:29.374Z] [ warning] [GLib-GObject] [799] g_object_get_is_valid_property: object class 'ToolsCoreService' has no property named 'tps_prop_gueststore'
+[2025-03-23T17:04:29.446Z] [ message] [vmtoolsd] [799] Unloading plugin 'vmbackup'.
+[2025-03-23T17:04:29.446Z] [ message] [vmtoolsd] [799] Unloading plugin 'timeSync'.
+[2025-03-23T17:04:29.446Z] [ message] [vmtoolsd] [799] Unloading plugin 'resolutionKMS'.
+[2025-03-23T17:04:29.446Z] [ message] [vmtoolsd] [799] Unloading plugin 'powerops'.
+[2025-03-23T17:04:29.446Z] [ message] [vmtoolsd] [799] Unloading plugin 'guestInfo'.
+[2025-03-23T17:04:29.446Z] [ message] [vmtoolsd] [799] Unloading plugin 'componentMgr'.
+[2025-03-23T17:04:29.446Z] [ message] [vmtoolsd] [799] Unloading plugin 'appInfo'.
+[2025-03-23T17:04:29.446Z] [ message] [vmtoolsd] [799] Unloading plugin 'vix'.
+[2025-03-23T17:04:29.446Z] [ message] [vmtoolsd] [799] Unloading plugin 'hgfsServer'.
+[2025-03-23T17:04:33.847Z] [ message] [vmsvc] [2566] VMware Tools Version: 12.4.0.48309 (build-23259341)
+[2025-03-23T17:04:33.850Z] [ message] [vmsvc] [2566] Guest OS details: architecture='X86' bitness='64' cpeString='cpe:/o:rocky:rocky:9::baseos' distroAddlVersion='9.5 (Blue Onyx)' distroName='Rocky Linux' distroVersion='9.5' familyName='Linux' kernelVersion='5.14.0-503.31.1.el9_5.x86_64' prettyName='Rocky Linux 9.5 (Blue Onyx)'
+[2025-03-23T17:04:33.847Z] [ message] [vmsvc] [2566] Log caching is enabled with maxCacheEntries=4096.
+[2025-03-23T17:04:33.850Z] [ message] [vmsvc] [2566] Core dump limit set to -1
+[2025-03-23T17:04:33.910Z] [ message] [vmsvc] [2566] Cannot load message catalog for domain 'hgfsServer', language 'es', catalog dir '/usr/share/open-vm-tools'.
+[2025-03-23T17:04:33.912Z] [ message] [vmtoolsd] [2566] Plugin 'hgfsServer' initialized.
+[2025-03-23T17:04:33.912Z] [ message] [vix] [2566] QueryVGAuthConfig: vgauth usage is: 1
+[2025-03-23T17:04:33.912Z] [ message] [vmsvc] [2566] Cannot load message catalog for domain 'vix', language 'es', catalog dir '/usr/share/open-vm-tools'.
+[2025-03-23T17:04:33.912Z] [ message] [vmtoolsd] [2566] Plugin 'vix' initialized.
+[2025-03-23T17:04:33.912Z] [ message] [vmsvc] [2566] Cannot load message catalog for domain 'appInfo', language 'es', catalog dir '/usr/share/open-vm-tools'.
+[2025-03-23T17:04:33.912Z] [ message] [vmtoolsd] [2566] Plugin 'appInfo' initialized.
+[2025-03-23T17:04:33.912Z] [ message] [vmsvc] [2566] Cannot load message catalog for domain 'componentMgr', language 'es', catalog dir '/usr/share/open-vm-tools'.
+[2025-03-23T17:04:33.912Z] [ message] [vmtoolsd] [2566] Plugin 'componentMgr' initialized.
+[2025-03-23T17:04:33.912Z] [ message] [vmsvc] [2566] Cannot load message catalog for domain 'guestInfo', language 'es', catalog dir '/usr/share/open-vm-tools'.
+[2025-03-23T17:04:33.912Z] [ message] [vmtoolsd] [2566] Plugin 'guestInfo' initialized.
+[2025-03-23T17:04:33.912Z] [ message] [vmsvc] [2566] Cannot load message catalog for domain 'powerops', language 'es', catalog dir '/usr/share/open-vm-tools'.
+[2025-03-23T17:04:33.912Z] [ message] [vmtoolsd] [2566] Plugin 'powerops' initialized.
+[2025-03-23T17:04:33.912Z] [ message] [resolutionCommon] [2566] resolutionCheckForKMS: dlopen succeeded.
+[2025-03-23T17:04:33.927Z] [ message] [resolutionCommon] [2566] resolutionCheckForKMS: System support available for resolutionKMS.
+[2025-03-23T17:04:33.931Z] [ message] [vmsvc] [2566] Cannot load message catalog for domain 'resolutionKMS', language 'es', catalog dir '/usr/share/open-vm-tools'.
+[2025-03-23T17:04:33.931Z] [ message] [vmtoolsd] [2566] Plugin 'resolutionKMS' initialized.
+[2025-03-23T17:04:33.931Z] [ message] [vmsvc] [2566] Cannot load message catalog for domain 'timeSync', language 'es', catalog dir '/usr/share/open-vm-tools'.
+[2025-03-23T17:04:33.931Z] [ message] [vmtoolsd] [2566] Plugin 'timeSync' initialized.
+[2025-03-23T17:04:33.931Z] [ message] [vmsvc] [2566] Cannot load message catalog for domain 'vmbackup', language 'es', catalog dir '/usr/share/open-vm-tools'.
+[2025-03-23T17:04:33.931Z] [ message] [vmtoolsd] [2566] Plugin 'vmbackup' initialized.
+[2025-03-23T17:04:33.954Z] [ message] [vix] [2566] VixTools_ProcessVixCommand: command 62
+[2025-03-23T17:04:34.027Z] [ message] [vix] [2566] VixTools_ProcessVixCommand: command 62
+[2025-03-23T17:04:34.028Z] [ message] [vix] [2566] ToolsDaemonTcloReceiveVixCommand: command 62, additionalError = 17
+[2025-03-23T17:46:46.261Z] [ message] [vmsvc] [2566] Executing script for state change 'OS_Reboot'.
+[2025-03-23T17:46:46.262Z] [ message] [powerops] [2566] Executing script: '/etc/vmware-tools/poweroff-vm-default'
+[2025-03-23T17:46:46.434Z] [ message] [vmsvc] [2566] Script exit code: 0, success = 1
+[2025-03-23T17:46:46.434Z] [ message] [vmsvc] [2566] Initiating reboot.
+[2025-03-23T17:46:47.584Z] [ warning] [GLib-GObject] [2566] g_object_get_is_valid_property: object class 'ToolsCoreService' has no property named 'tps_prop_gueststore'
+[2025-03-23T17:46:47.778Z] [ message] [vmtoolsd] [2566] Unloading plugin 'vmbackup'.
+[2025-03-23T17:46:47.795Z] [ message] [vmtoolsd] [2566] Unloading plugin 'timeSync'.
+[2025-03-23T17:46:47.814Z] [ message] [vmtoolsd] [2566] Unloading plugin 'resolutionKMS'.
+[2025-03-23T17:46:47.822Z] [ message] [vmtoolsd] [2566] Unloading plugin 'powerops'.
+[2025-03-23T17:46:47.822Z] [ message] [vmtoolsd] [2566] Unloading plugin 'guestInfo'.
+[2025-03-23T17:46:47.822Z] [ message] [vmtoolsd] [2566] Unloading plugin 'componentMgr'.
+[2025-03-23T17:46:47.822Z] [ message] [vmtoolsd] [2566] Unloading plugin 'appInfo'.
+[2025-03-23T17:46:47.822Z] [ message] [vmtoolsd] [2566] Unloading plugin 'vix'.
+[2025-03-23T17:46:47.822Z] [ message] [vmtoolsd] [2566] Unloading plugin 'hgfsServer'.
+[2025-03-23T17:47:31.444Z] [ message] [vmsvc] [801] VMware Tools Version: 12.4.0.48309 (build-23259341)
+[2025-03-23T17:47:31.451Z] [ message] [vmsvc] [801] Guest OS details: architecture='X86' bitness='64' cpeString='cpe:/o:rocky:rocky:9::baseos' distroAddlVersion='9.5 (Blue Onyx)' distroName='Rocky Linux' distroVersion='9.5' familyName='Linux' kernelVersion='5.14.0-503.31.1.el9_5.x86_64' prettyName='Rocky Linux 9.5 (Blue Onyx)'
+[2025-03-23T17:47:31.444Z] [ message] [vmsvc] [801] Log caching is enabled with maxCacheEntries=4096.
+[2025-03-23T17:47:31.451Z] [ message] [vmsvc] [801] Core dump limit set to -1
+[2025-03-23T17:47:31.826Z] [ message] [vmsvc] [801] Cannot load message catalog for domain 'hgfsServer', language 'es', catalog dir '/usr/share/open-vm-tools'.
+[2025-03-23T17:47:31.830Z] [ message] [vmtoolsd] [801] Plugin 'hgfsServer' initialized.
+[2025-03-23T17:47:31.830Z] [ message] [vix] [801] QueryVGAuthConfig: vgauth usage is: 1
+[2025-03-23T17:47:31.830Z] [ message] [vmsvc] [801] Cannot load message catalog for domain 'vix', language 'es', catalog dir '/usr/share/open-vm-tools'.
+[2025-03-23T17:47:31.830Z] [ message] [vmtoolsd] [801] Plugin 'vix' initialized.
+[2025-03-23T17:47:31.830Z] [ message] [vmsvc] [801] Cannot load message catalog for domain 'appInfo', language 'es', catalog dir '/usr/share/open-vm-tools'.
+[2025-03-23T17:47:31.830Z] [ message] [vmtoolsd] [801] Plugin 'appInfo' initialized.
+[2025-03-23T17:47:31.830Z] [ message] [vmsvc] [801] Cannot load message catalog for domain 'componentMgr', language 'es', catalog dir '/usr/share/open-vm-tools'.
+[2025-03-23T17:47:31.830Z] [ message] [vmtoolsd] [801] Plugin 'componentMgr' initialized.
+[2025-03-23T17:47:31.834Z] [ message] [vmsvc] [801] Cannot load message catalog for domain 'guestInfo', language 'es', catalog dir '/usr/share/open-vm-tools'.
+[2025-03-23T17:47:31.834Z] [ message] [vmtoolsd] [801] Plugin 'guestInfo' initialized.
+[2025-03-23T17:47:31.834Z] [ message] [vmsvc] [801] Cannot load message catalog for domain 'powerops', language 'es', catalog dir '/usr/share/open-vm-tools'.
+[2025-03-23T17:47:31.834Z] [ message] [vmtoolsd] [801] Plugin 'powerops' initialized.
+[2025-03-23T17:47:31.834Z] [ message] [resolutionCommon] [801] resolutionCheckForKMS: dlopen succeeded.
+[2025-03-23T17:47:31.846Z] [ message] [resolutionCommon] [801] resolutionCheckForKMS: System support available for resolutionKMS.
+[2025-03-23T17:47:31.847Z] [ message] [vmsvc] [801] Cannot load message catalog for domain 'resolutionKMS', language 'es', catalog dir '/usr/share/open-vm-tools'.
+[2025-03-23T17:47:31.847Z] [ message] [vmtoolsd] [801] Plugin 'resolutionKMS' initialized.
+[2025-03-23T17:47:31.847Z] [ message] [vmsvc] [801] Cannot load message catalog for domain 'timeSync', language 'es', catalog dir '/usr/share/open-vm-tools'.
+[2025-03-23T17:47:31.847Z] [ message] [vmtoolsd] [801] Plugin 'timeSync' initialized.
+[2025-03-23T17:47:31.847Z] [ message] [vmsvc] [801] Cannot load message catalog for domain 'vmbackup', language 'es', catalog dir '/usr/share/open-vm-tools'.
+[2025-03-23T17:47:31.847Z] [ message] [vmtoolsd] [801] Plugin 'vmbackup' initialized.
+[2025-03-23T17:47:31.919Z] [ message] [vix] [801] VixTools_ProcessVixCommand: command 62
+[2025-03-23T17:47:31.920Z] [ message] [vix] [801] ToolsDaemonTcloReceiveVixCommand: command 62, additionalError = 17
+[2025-03-23T17:47:31.930Z] [ message] [vmsvc] [801] Executing script for state change 'OS_PowerOn'.
+[2025-03-23T17:47:31.932Z] [ message] [powerops] [801] Executing script: '/etc/vmware-tools/poweron-vm-default'
+[2025-03-23T17:47:32.559Z] [ message] [vmsvc] [801] Script exit code: 0, success = 1
+[2025-03-23T19:30:39.579Z] [ warning] [GLib-GObject] [801] g_object_get_is_valid_property: object class 'ToolsCoreService' has no property named 'tps_prop_gueststore'
+[2025-03-23T19:30:39.759Z] [ message] [vmtoolsd] [801] Unloading plugin 'vmbackup'.
+[2025-03-23T19:30:39.759Z] [ message] [vmtoolsd] [801] Unloading plugin 'timeSync'.
+[2025-03-23T19:30:39.759Z] [ message] [vmtoolsd] [801] Unloading plugin 'resolutionKMS'.
+[2025-03-23T19:30:39.759Z] [ message] [vmtoolsd] [801] Unloading plugin 'powerops'.
+[2025-03-23T19:30:39.759Z] [ message] [vmtoolsd] [801] Unloading plugin 'guestInfo'.
+[2025-03-23T19:30:39.759Z] [ message] [vmtoolsd] [801] Unloading plugin 'componentMgr'.
+[2025-03-23T19:30:39.759Z] [ message] [vmtoolsd] [801] Unloading plugin 'appInfo'.
+[2025-03-23T19:30:39.759Z] [ message] [vmtoolsd] [801] Unloading plugin 'vix'.
+[2025-03-23T19:30:39.759Z] [ message] [vmtoolsd] [801] Unloading plugin 'hgfsServer'.
+[2025-03-24T04:38:00.923Z] [ message] [vmsvc] [801] VMware Tools Version: 12.4.0.48309 (build-23259341)
+[2025-03-24T04:38:00.927Z] [ message] [vmsvc] [801] Guest OS details: architecture='X86' bitness='64' cpeString='cpe:/o:rocky:rocky:9::baseos' distroAddlVersion='9.5 (Blue Onyx)' distroName='Rocky Linux' distroVersion='9.5' familyName='Linux' kernelVersion='5.14.0-503.31.1.el9_5.x86_64' prettyName='Rocky Linux 9.5 (Blue Onyx)'
+[2025-03-24T04:38:00.923Z] [ message] [vmsvc] [801] Log caching is enabled with maxCacheEntries=4096.
+[2025-03-24T04:38:00.928Z] [ message] [vmsvc] [801] Core dump limit set to -1
+[2025-03-24T04:38:01.263Z] [ message] [vmsvc] [801] Cannot load message catalog for domain 'hgfsServer', language 'es', catalog dir '/usr/share/open-vm-tools'.
+[2025-03-24T04:38:01.264Z] [ message] [vmtoolsd] [801] Plugin 'hgfsServer' initialized.
+[2025-03-24T04:38:01.264Z] [ message] [vix] [801] QueryVGAuthConfig: vgauth usage is: 1
+[2025-03-24T04:38:01.264Z] [ message] [vmsvc] [801] Cannot load message catalog for domain 'vix', language 'es', catalog dir '/usr/share/open-vm-tools'.
+[2025-03-24T04:38:01.264Z] [ message] [vmtoolsd] [801] Plugin 'vix' initialized.
+[2025-03-24T04:38:01.264Z] [ message] [vmsvc] [801] Cannot load message catalog for domain 'appInfo', language 'es', catalog dir '/usr/share/open-vm-tools'.
+[2025-03-24T04:38:01.264Z] [ message] [vmtoolsd] [801] Plugin 'appInfo' initialized.
+[2025-03-24T04:38:01.264Z] [ message] [vmsvc] [801] Cannot load message catalog for domain 'componentMgr', language 'es', catalog dir '/usr/share/open-vm-tools'.
+[2025-03-24T04:38:01.264Z] [ message] [vmtoolsd] [801] Plugin 'componentMgr' initialized.
+[2025-03-24T04:38:01.264Z] [ message] [vmsvc] [801] Cannot load message catalog for domain 'guestInfo', language 'es', catalog dir '/usr/share/open-vm-tools'.
+[2025-03-24T04:38:01.264Z] [ message] [vmtoolsd] [801] Plugin 'guestInfo' initialized.
+[2025-03-24T04:38:01.264Z] [ message] [vmsvc] [801] Cannot load message catalog for domain 'powerops', language 'es', catalog dir '/usr/share/open-vm-tools'.
+[2025-03-24T04:38:01.264Z] [ message] [vmtoolsd] [801] Plugin 'powerops' initialized.
+[2025-03-24T04:38:01.264Z] [ message] [resolutionCommon] [801] resolutionCheckForKMS: dlopen succeeded.
+[2025-03-24T04:38:01.270Z] [ message] [resolutionCommon] [801] resolutionCheckForKMS: System support available for resolutionKMS.
+[2025-03-24T04:38:01.271Z] [ message] [vmsvc] [801] Cannot load message catalog for domain 'resolutionKMS', language 'es', catalog dir '/usr/share/open-vm-tools'.
+[2025-03-24T04:38:01.272Z] [ message] [vmtoolsd] [801] Plugin 'resolutionKMS' initialized.
+[2025-03-24T04:38:01.272Z] [ message] [vmsvc] [801] Cannot load message catalog for domain 'timeSync', language 'es', catalog dir '/usr/share/open-vm-tools'.
+[2025-03-24T04:38:01.272Z] [ message] [vmtoolsd] [801] Plugin 'timeSync' initialized.
+[2025-03-24T04:38:01.272Z] [ message] [vmsvc] [801] Cannot load message catalog for domain 'vmbackup', language 'es', catalog dir '/usr/share/open-vm-tools'.
+[2025-03-24T04:38:01.272Z] [ message] [vmtoolsd] [801] Plugin 'vmbackup' initialized.
+[2025-03-24T04:38:01.275Z] [ message] [vix] [801] VixTools_ProcessVixCommand: command 62
+[2025-03-24T04:38:01.277Z] [ message] [vix] [801] ToolsDaemonTcloReceiveVixCommand: command 62, additionalError = 17
+[2025-03-24T04:38:01.326Z] [ message] [vix] [801] VixTools_ProcessVixCommand: command 62
+[2025-03-24T04:38:01.332Z] [ message] [vix] [801] ToolsDaemonTcloReceiveVixCommand: command 62, additionalError = 17
+[2025-03-24T04:38:01.336Z] [ message] [vmsvc] [801] Executing script for state change 'OS_PowerOn'.
+[2025-03-24T04:38:01.337Z] [ message] [powerops] [801] Executing script: '/etc/vmware-tools/poweron-vm-default'
+[2025-03-24T04:38:01.993Z] [ message] [vmsvc] [801] Script exit code: 0, success = 1
+[2025-03-24T04:40:41.510Z] [ warning] [GLib-GObject] [801] g_object_get_is_valid_property: object class 'ToolsCoreService' has no property named 'tps_prop_gueststore'
+[2025-03-24T04:40:41.543Z] [ message] [vmtoolsd] [801] Unloading plugin 'vmbackup'.
+[2025-03-24T04:40:41.543Z] [ message] [vmtoolsd] [801] Unloading plugin 'timeSync'.
+[2025-03-24T04:40:41.543Z] [ message] [vmtoolsd] [801] Unloading plugin 'resolutionKMS'.
+[2025-03-24T04:40:41.543Z] [ message] [vmtoolsd] [801] Unloading plugin 'powerops'.
+[2025-03-24T04:40:41.543Z] [ message] [vmtoolsd] [801] Unloading plugin 'guestInfo'.
+[2025-03-24T04:40:41.543Z] [ message] [vmtoolsd] [801] Unloading plugin 'componentMgr'.
+[2025-03-24T04:40:41.543Z] [ message] [vmtoolsd] [801] Unloading plugin 'appInfo'.
+[2025-03-24T04:40:41.543Z] [ message] [vmtoolsd] [801] Unloading plugin 'vix'.
+[2025-03-24T04:40:41.543Z] [ message] [vmtoolsd] [801] Unloading plugin 'hgfsServer'.
+[2025-03-30T13:25:40.453Z] [ message] [vmsvc] [801] VMware Tools Version: 12.4.0.48309 (build-23259341)
+[2025-03-30T13:25:40.456Z] [ message] [vmsvc] [801] Guest OS details: architecture='X86' bitness='64' cpeString='cpe:/o:rocky:rocky:9::baseos' distroAddlVersion='9.5 (Blue Onyx)' distroName='Rocky Linux' distroVersion='9.5' familyName='Linux' kernelVersion='5.14.0-503.31.1.el9_5.x86_64' prettyName='Rocky Linux 9.5 (Blue Onyx)'
+[2025-03-30T13:25:40.453Z] [ message] [vmsvc] [801] Log caching is enabled with maxCacheEntries=4096.
+[2025-03-30T13:25:40.456Z] [ message] [vmsvc] [801] Core dump limit set to -1
+[2025-03-30T13:25:41.191Z] [ message] [vmsvc] [801] Cannot load message catalog for domain 'hgfsServer', language 'es', catalog dir '/usr/share/open-vm-tools'.
+[2025-03-30T13:25:41.191Z] [ message] [vmtoolsd] [801] Plugin 'hgfsServer' initialized.
+[2025-03-30T13:25:41.191Z] [ message] [vix] [801] QueryVGAuthConfig: vgauth usage is: 1
+[2025-03-30T13:25:41.191Z] [ message] [vmsvc] [801] Cannot load message catalog for domain 'vix', language 'es', catalog dir '/usr/share/open-vm-tools'.
+[2025-03-30T13:25:41.191Z] [ message] [vmtoolsd] [801] Plugin 'vix' initialized.
+[2025-03-30T13:25:41.191Z] [ message] [vmsvc] [801] Cannot load message catalog for domain 'appInfo', language 'es', catalog dir '/usr/share/open-vm-tools'.
+[2025-03-30T13:25:41.191Z] [ message] [vmtoolsd] [801] Plugin 'appInfo' initialized.
+[2025-03-30T13:25:41.191Z] [ message] [vmsvc] [801] Cannot load message catalog for domain 'componentMgr', language 'es', catalog dir '/usr/share/open-vm-tools'.
+[2025-03-30T13:25:41.191Z] [ message] [vmtoolsd] [801] Plugin 'componentMgr' initialized.
+[2025-03-30T13:25:41.192Z] [ message] [vmsvc] [801] Cannot load message catalog for domain 'guestInfo', language 'es', catalog dir '/usr/share/open-vm-tools'.
+[2025-03-30T13:25:41.192Z] [ message] [vmtoolsd] [801] Plugin 'guestInfo' initialized.
+[2025-03-30T13:25:41.192Z] [ message] [vmsvc] [801] Cannot load message catalog for domain 'powerops', language 'es', catalog dir '/usr/share/open-vm-tools'.
+[2025-03-30T13:25:41.192Z] [ message] [vmtoolsd] [801] Plugin 'powerops' initialized.
+[2025-03-30T13:25:41.192Z] [ message] [resolutionCommon] [801] resolutionCheckForKMS: dlopen succeeded.
+[2025-03-30T13:25:41.207Z] [ message] [resolutionCommon] [801] resolutionCheckForKMS: System support available for resolutionKMS.
+[2025-03-30T13:25:41.207Z] [ message] [vmsvc] [801] Cannot load message catalog for domain 'resolutionKMS', language 'es', catalog dir '/usr/share/open-vm-tools'.
+[2025-03-30T13:25:41.207Z] [ message] [vmtoolsd] [801] Plugin 'resolutionKMS' initialized.
+[2025-03-30T13:25:41.208Z] [ message] [vmsvc] [801] Cannot load message catalog for domain 'timeSync', language 'es', catalog dir '/usr/share/open-vm-tools'.
+[2025-03-30T13:25:41.208Z] [ message] [vmtoolsd] [801] Plugin 'timeSync' initialized.
+[2025-03-30T13:25:41.208Z] [ message] [vmsvc] [801] Cannot load message catalog for domain 'vmbackup', language 'es', catalog dir '/usr/share/open-vm-tools'.
+[2025-03-30T13:25:41.208Z] [ message] [vmtoolsd] [801] Plugin 'vmbackup' initialized.
+[2025-03-30T13:25:41.224Z] [ message] [vix] [801] VixTools_ProcessVixCommand: command 62
+[2025-03-30T13:25:41.232Z] [ message] [vix] [801] ToolsDaemonTcloReceiveVixCommand: command 62, additionalError = 17
+[2025-03-30T13:25:41.276Z] [ message] [vix] [801] VixTools_ProcessVixCommand: command 62
+[2025-03-30T13:25:41.276Z] [ message] [vix] [801] ToolsDaemonTcloReceiveVixCommand: command 62, additionalError = 17
+[2025-03-30T13:25:41.281Z] [ message] [vmsvc] [801] Executing script for state change 'OS_PowerOn'.
+[2025-03-30T13:25:41.281Z] [ message] [powerops] [801] Executing script: '/etc/vmware-tools/poweron-vm-default'
+[2025-03-30T13:25:42.576Z] [ message] [vmsvc] [801] Script exit code: 0, success = 1
+[2025-03-30T19:05:42.823Z] [ warning] [GLib-GObject] [801] g_object_get_is_valid_property: object class 'ToolsCoreService' has no property named 'tps_prop_gueststore'
+[2025-03-30T19:05:43.349Z] [ message] [vmtoolsd] [801] Unloading plugin 'vmbackup'.
+[2025-03-30T19:05:43.350Z] [ message] [vmtoolsd] [801] Unloading plugin 'timeSync'.
+[2025-03-30T19:05:43.362Z] [ message] [vmtoolsd] [801] Unloading plugin 'resolutionKMS'.
+[2025-03-30T19:05:43.363Z] [ message] [vmtoolsd] [801] Unloading plugin 'powerops'.
+[2025-03-30T19:05:43.363Z] [ message] [vmtoolsd] [801] Unloading plugin 'guestInfo'.
+[2025-03-30T19:05:43.363Z] [ message] [vmtoolsd] [801] Unloading plugin 'componentMgr'.
+[2025-03-30T19:05:43.363Z] [ message] [vmtoolsd] [801] Unloading plugin 'appInfo'.
+[2025-03-30T19:05:43.382Z] [ message] [vmtoolsd] [801] Unloading plugin 'vix'.
+[2025-03-30T19:05:43.383Z] [ message] [vmtoolsd] [801] Unloading plugin 'hgfsServer'.
+[2025-04-06T17:32:09.022Z] [ message] [vmsvc] [796] VMware Tools Version: 12.4.0.48309 (build-23259341)
+[2025-04-06T17:32:09.024Z] [ message] [vmsvc] [796] Guest OS details: architecture='X86' bitness='64' cpeString='cpe:/o:rocky:rocky:9::baseos' distroAddlVersion='9.5 (Blue Onyx)' distroName='Rocky Linux' distroVersion='9.5' familyName='Linux' kernelVersion='5.14.0-503.31.1.el9_5.x86_64' prettyName='Rocky Linux 9.5 (Blue Onyx)'
+[2025-04-06T17:32:09.022Z] [ message] [vmsvc] [796] Log caching is enabled with maxCacheEntries=4096.
+[2025-04-06T17:32:09.024Z] [ message] [vmsvc] [796] Core dump limit set to -1
+[2025-04-06T17:32:09.787Z] [ message] [vmsvc] [796] Cannot load message catalog for domain 'hgfsServer', language 'es', catalog dir '/usr/share/open-vm-tools'.
+[2025-04-06T17:32:09.789Z] [ message] [vmtoolsd] [796] Plugin 'hgfsServer' initialized.
+[2025-04-06T17:32:09.789Z] [ message] [vix] [796] QueryVGAuthConfig: vgauth usage is: 1
+[2025-04-06T17:32:09.789Z] [ message] [vmsvc] [796] Cannot load message catalog for domain 'vix', language 'es', catalog dir '/usr/share/open-vm-tools'.
+[2025-04-06T17:32:09.789Z] [ message] [vmtoolsd] [796] Plugin 'vix' initialized.
+[2025-04-06T17:32:09.789Z] [ message] [vmsvc] [796] Cannot load message catalog for domain 'appInfo', language 'es', catalog dir '/usr/share/open-vm-tools'.
+[2025-04-06T17:32:09.789Z] [ message] [vmtoolsd] [796] Plugin 'appInfo' initialized.
+[2025-04-06T17:32:09.789Z] [ message] [vmsvc] [796] Cannot load message catalog for domain 'componentMgr', language 'es', catalog dir '/usr/share/open-vm-tools'.
+[2025-04-06T17:32:09.790Z] [ message] [vmtoolsd] [796] Plugin 'componentMgr' initialized.
+[2025-04-06T17:32:09.791Z] [ message] [vmsvc] [796] Cannot load message catalog for domain 'guestInfo', language 'es', catalog dir '/usr/share/open-vm-tools'.
+[2025-04-06T17:32:09.791Z] [ message] [vmtoolsd] [796] Plugin 'guestInfo' initialized.
+[2025-04-06T17:32:09.796Z] [ message] [vmsvc] [796] Cannot load message catalog for domain 'powerops', language 'es', catalog dir '/usr/share/open-vm-tools'.
+[2025-04-06T17:32:09.796Z] [ message] [vmtoolsd] [796] Plugin 'powerops' initialized.
+[2025-04-06T17:32:09.796Z] [ message] [resolutionCommon] [796] resolutionCheckForKMS: dlopen succeeded.
+[2025-04-06T17:32:09.809Z] [ message] [resolutionCommon] [796] resolutionCheckForKMS: System support available for resolutionKMS.
+[2025-04-06T17:32:09.809Z] [ message] [vmsvc] [796] Cannot load message catalog for domain 'resolutionKMS', language 'es', catalog dir '/usr/share/open-vm-tools'.
+[2025-04-06T17:32:09.809Z] [ message] [vmtoolsd] [796] Plugin 'resolutionKMS' initialized.
+[2025-04-06T17:32:09.813Z] [ message] [vmsvc] [796] Cannot load message catalog for domain 'timeSync', language 'es', catalog dir '/usr/share/open-vm-tools'.
+[2025-04-06T17:32:09.813Z] [ message] [vmtoolsd] [796] Plugin 'timeSync' initialized.
+[2025-04-06T17:32:09.813Z] [ message] [vmsvc] [796] Cannot load message catalog for domain 'vmbackup', language 'es', catalog dir '/usr/share/open-vm-tools'.
+[2025-04-06T17:32:09.813Z] [ message] [vmtoolsd] [796] Plugin 'vmbackup' initialized.
+[2025-04-06T17:32:09.829Z] [ message] [vix] [796] VixTools_ProcessVixCommand: command 62
+[2025-04-06T17:32:09.899Z] [ message] [vix] [796] VixTools_ProcessVixCommand: command 62
+[2025-04-06T17:32:09.902Z] [ message] [vix] [796] ToolsDaemonTcloReceiveVixCommand: command 62, additionalError = 17
+[2025-04-06T17:32:09.911Z] [ message] [vmsvc] [796] Executing script for state change 'OS_PowerOn'.
+[2025-04-06T17:32:09.911Z] [ message] [powerops] [796] Executing script: '/etc/vmware-tools/poweron-vm-default'
+[2025-04-06T17:32:11.521Z] [ message] [vmsvc] [796] Script exit code: 0, success = 1
+[2025-04-06T18:28:39.896Z] [ warning] [GLib-GObject] [796] g_object_get_is_valid_property: object class 'ToolsCoreService' has no property named 'tps_prop_gueststore'
+[2025-04-06T18:28:41.173Z] [ message] [vmtoolsd] [796] Unloading plugin 'vmbackup'.
+[2025-04-06T18:28:41.192Z] [ message] [vmtoolsd] [796] Unloading plugin 'timeSync'.
+[2025-04-06T18:28:41.193Z] [ message] [vmtoolsd] [796] Unloading plugin 'resolutionKMS'.
+[2025-04-06T18:28:41.193Z] [ message] [vmtoolsd] [796] Unloading plugin 'powerops'.
+[2025-04-06T18:28:41.193Z] [ message] [vmtoolsd] [796] Unloading plugin 'guestInfo'.
+[2025-04-06T18:28:41.193Z] [ message] [vmtoolsd] [796] Unloading plugin 'componentMgr'.
+[2025-04-06T18:28:41.193Z] [ message] [vmtoolsd] [796] Unloading plugin 'appInfo'.
+[2025-04-06T18:28:41.193Z] [ message] [vmtoolsd] [796] Unloading plugin 'vix'.
+[2025-04-06T18:28:41.193Z] [ message] [vmtoolsd] [796] Unloading plugin 'hgfsServer'.
+[2025-04-07T20:05:58.092Z] [ message] [vmsvc] [824] VMware Tools Version: 12.4.0.48309 (build-23259341)
+[2025-04-07T20:05:58.097Z] [ message] [vmsvc] [824] Guest OS details: architecture='X86' bitness='64' cpeString='cpe:/o:rocky:rocky:9::baseos' distroAddlVersion='9.5 (Blue Onyx)' distroName='Rocky Linux' distroVersion='9.5' familyName='Linux' kernelVersion='5.14.0-503.31.1.el9_5.x86_64' prettyName='Rocky Linux 9.5 (Blue Onyx)'
+[2025-04-07T20:05:58.092Z] [ message] [vmsvc] [824] Log caching is enabled with maxCacheEntries=4096.
+[2025-04-07T20:05:58.097Z] [ message] [vmsvc] [824] Core dump limit set to -1
+[2025-04-07T20:05:58.560Z] [ message] [vmsvc] [824] Cannot load message catalog for domain 'hgfsServer', language 'es', catalog dir '/usr/share/open-vm-tools'.
+[2025-04-07T20:05:58.560Z] [ message] [vmtoolsd] [824] Plugin 'hgfsServer' initialized.
+[2025-04-07T20:05:58.560Z] [ message] [vix] [824] QueryVGAuthConfig: vgauth usage is: 1
+[2025-04-07T20:05:58.561Z] [ message] [vmsvc] [824] Cannot load message catalog for domain 'vix', language 'es', catalog dir '/usr/share/open-vm-tools'.
+[2025-04-07T20:05:58.561Z] [ message] [vmtoolsd] [824] Plugin 'vix' initialized.
+[2025-04-07T20:05:58.561Z] [ message] [vmsvc] [824] Cannot load message catalog for domain 'appInfo', language 'es', catalog dir '/usr/share/open-vm-tools'.
+[2025-04-07T20:05:58.561Z] [ message] [vmtoolsd] [824] Plugin 'appInfo' initialized.
+[2025-04-07T20:05:58.561Z] [ message] [vmsvc] [824] Cannot load message catalog for domain 'componentMgr', language 'es', catalog dir '/usr/share/open-vm-tools'.
+[2025-04-07T20:05:58.561Z] [ message] [vmtoolsd] [824] Plugin 'componentMgr' initialized.
+[2025-04-07T20:05:58.562Z] [ message] [vmsvc] [824] Cannot load message catalog for domain 'guestInfo', language 'es', catalog dir '/usr/share/open-vm-tools'.
+[2025-04-07T20:05:58.562Z] [ message] [vmtoolsd] [824] Plugin 'guestInfo' initialized.
+[2025-04-07T20:05:58.562Z] [ message] [vmsvc] [824] Cannot load message catalog for domain 'powerops', language 'es', catalog dir '/usr/share/open-vm-tools'.
+[2025-04-07T20:05:58.562Z] [ message] [vmtoolsd] [824] Plugin 'powerops' initialized.
+[2025-04-07T20:05:58.562Z] [ message] [resolutionCommon] [824] resolutionCheckForKMS: dlopen succeeded.
+[2025-04-07T20:05:58.566Z] [ message] [resolutionCommon] [824] resolutionCheckForKMS: System support available for resolutionKMS.
+[2025-04-07T20:05:58.566Z] [ message] [vmsvc] [824] Cannot load message catalog for domain 'resolutionKMS', language 'es', catalog dir '/usr/share/open-vm-tools'.
+[2025-04-07T20:05:58.566Z] [ message] [vmtoolsd] [824] Plugin 'resolutionKMS' initialized.
+[2025-04-07T20:05:58.566Z] [ message] [vmsvc] [824] Cannot load message catalog for domain 'timeSync', language 'es', catalog dir '/usr/share/open-vm-tools'.
+[2025-04-07T20:05:58.566Z] [ message] [vmtoolsd] [824] Plugin 'timeSync' initialized.
+[2025-04-07T20:05:58.566Z] [ message] [vmsvc] [824] Cannot load message catalog for domain 'vmbackup', language 'es', catalog dir '/usr/share/open-vm-tools'.
+[2025-04-07T20:05:58.566Z] [ message] [vmtoolsd] [824] Plugin 'vmbackup' initialized.
+[2025-04-07T20:05:58.577Z] [ message] [vix] [824] VixTools_ProcessVixCommand: command 62
+[2025-04-07T20:05:58.606Z] [ message] [vix] [824] VixTools_ProcessVixCommand: command 62
+[2025-04-07T20:05:58.606Z] [ message] [vix] [824] ToolsDaemonTcloReceiveVixCommand: command 62, additionalError = 17
+[2025-04-07T20:05:58.607Z] [ message] [vmsvc] [824] Executing script for state change 'OS_PowerOn'.
+[2025-04-07T20:05:58.607Z] [ message] [powerops] [824] Executing script: '/etc/vmware-tools/poweron-vm-default'
+[2025-04-07T20:05:59.359Z] [ message] [vmsvc] [824] Script exit code: 0, success = 1

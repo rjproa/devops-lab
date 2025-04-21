@@ -59,3 +59,4 @@ Este script en **Python 3** realiza una copia de seguridad de todos los archivos
 - Sistema Linux
 - Permisos de lectura en el directorio logs/ y escritura en backups_logs/
 
+
