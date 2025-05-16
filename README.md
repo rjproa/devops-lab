@@ -1,4 +1,4 @@
-# 🚀 devops-lab
+# 🚀 DevOps-Lab
 
 ¡Hola! Soy **Jhamil**, un entusiasta de la tecnología en camino a convertirme en un profesional **DevOps**.  
 Este repositorio es mi laboratorio personal: aquí documento todo lo que aprendo, pruebo y creo mientras exploro el fascinante mundo del desarrollo, automatización y operaciones.
