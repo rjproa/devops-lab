@@ -28,7 +28,7 @@ Bienvenidos a una guía sobre el uso de Git y GitHub. Esta sección hace el inte
 - 5.1 🍴 Forks y Pull Requests  
 - 5.2 🔄 Push & Pull  
 
-### 6. 🛠️ Recomendaciones y extras
+### 6. 🛠️ [Recomendaciones y extras](./06_recomendaciones/recomendaciones.md)
 - 6.1 ✨ Alias útiles  
 - 6.2 📂 Uso de `.gitignore`  
 - 6.3 🧹 Limpieza del repositorio  
