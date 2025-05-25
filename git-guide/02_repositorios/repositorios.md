@@ -1,4 +1,3 @@
-
 # 02 Repositorio
 ## 2.1 Iniciar un repositorio 
 1. Iniciar el repositorio en local:
