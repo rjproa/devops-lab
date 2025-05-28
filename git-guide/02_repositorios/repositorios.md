@@ -25,9 +25,9 @@ Existe dos formas de autenticarse en GitHub:
 
 - `SSH`: Una clave SSH es la forma recomendable para autenticarte en GitHub, sin usar usuario ni contraseña. En su lugar usas claves públicas y privadas.
     - `ls ~/.ssh`: verifica si ya tienes claves SSH. Deberías ver archivos como: `id_rsa.pub`, `id_ed25519.pub`. En caso no veas esto tendrás que crearlos.
-    - `ssh-keygen -t ed25519 -C "tunombre@ejemplo.com"`
-    - Agregar la clave al agente SSH: `eval "$(ssh-agent -s)" `,luego 
-`ssh-add ~/.ssh/id_ed25519`.
+    - Puedes crear tus claves SSH con el siguiente comando: `ssh-keygen -t ed25519 -C "tunombre@ejemplo.com"`
+    - Agregar la clave al agente SSH: `eval "$(ssh-agent -s)" `. Esto activará un agente que gestionará las claves en lugar de ti.
+    - Luego usa: `ssh-add ~/.ssh/id_ed25519`. Esto le da tu clave privada al agente para que lo gestione trabajar con repositorios remotos.
     - Copia tu clave pública: `cat ~/.ssh/id_ed25519.pub`.
     - Ve a GitHub > Settings > SSH and GPG keys > New SSH Key y pega el contenido.
     - Listo. Ahora podrás realizar git push y git pull de manera correcta.
