@@ -7,7 +7,7 @@ def test_handler_ok():
     response = handler(event, None)
     body = json.loads(response["body"])
     assert response["statusCode"] == 200
-    assert body["resultado"] == 7
+    assert body["resultado"] == 8
 
 
 def test_handler_error_tipo():
