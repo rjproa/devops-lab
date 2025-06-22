@@ -29,7 +29,8 @@ jobs:
 
       - name: Empaquetar código en ZIP
         working-directory: python/03_lambda_auto_deploy
-        run: zip -r function.zip . -x ".git/*" ".github/*" "tests/*" "test_*"
+        run: zip function.zip main.py requirements.txt 
+
 
       - name: Desplegar en AWS Lambda
         working-directory: python/03_lambda_auto_deploy
