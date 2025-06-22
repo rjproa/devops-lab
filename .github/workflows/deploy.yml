@@ -3,6 +3,8 @@ name: CI/CD Pipeline para Lambda
 on:
   push:
     branches: [pc-windows]
+  
+  workflow_dispatch:
 
 jobs:
   build-and-deploy:
