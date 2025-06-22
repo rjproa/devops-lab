@@ -24,3 +24,19 @@ def handler(event, context):
             "statusCode": 400,
             "body": json.dumps({"error": str(e)})
         }
+
+
+def test_local():
+    event = {
+        "body": json.dumps({
+            "a": 5,
+            "b": 7
+        })
+    }
+    context = {}  # no se usa
+
+    response = handler(event, context)
+    print("Respuesta:")
+    print(json.loads(response["body"]))
+
+test_local()
