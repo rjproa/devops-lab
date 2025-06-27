@@ -4,7 +4,7 @@ on:
   push:
     branches: [pc-windows]
     paths:
-      - '03/lambda_auto_deploy/**'
+      - 'python/03_lambda_auto_deploy/**'
   workflow_dispatch:
 
 jobs:
@@ -29,7 +29,7 @@ jobs:
       - name: Ejecutar tests
         working-directory: python/03_lambda_auto_deploy
         run: pytest
-_lam
+
       - name: Empaquetar código en ZIP
         working-directory: python/03_lambda_auto_deploy
         run: zip function.zip main.py requirements.txt 
