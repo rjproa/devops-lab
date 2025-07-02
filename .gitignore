@@ -1,0 +1,9 @@
+# Ignorar archivo .env en 03_alert_slack
+01_python_scripts/03_alert_slack/.env
+
+# Ignorar carpetas __pycache__ y .pytest_cache en 04_lambda_auto_deploy
+01_python_scripts/04_lambda_auto_deploy/__pycache__/
+01_python_scripts/04_lambda_auto_deploy/.pytest_cache/
+
+# Ignorar archivos temporales (como el generado por VSCode)
+01_python_scripts/04_lambda_auto_deploy/tempCodeRunnerFile.py
