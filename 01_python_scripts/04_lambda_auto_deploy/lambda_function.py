@@ -1,7 +1,7 @@
 import json
 
 
-def handler(event, context):
+def lambda_handler(event, context):
     try:
         body = event.get("body")
         if isinstance(body, str):
