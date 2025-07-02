@@ -1,7 +1,0 @@
-2025-04-20 18:24:39,058 - INFO -  Uso de disco en /dev/mapper/rl-root - 32.3%
-2025-04-20 18:24:39,059 - WARNING -  Alerta: Uso de disco en /dev/sda1 - 92.8%
-2025-04-20 18:24:39,061 - INFO -  Uso de RAM - 35.4%
-2025-04-20 18:24:39,061 - INFO -  Uso de Swap - 0.0%
-2025-04-20 18:24:41,065 - INFO -  Uso total de CPU - 0.5%
-2025-04-20 18:24:41,066 - INFO -  Carga en núcleo 0 - 0.0%
-2025-04-20 18:24:41,067 - INFO -  Carga en núcleo 1 - 0.0%

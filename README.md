@@ -1,15 +1,16 @@
-# 🚀 DevOps-Lab
+# 🚀 Devops-Lab
 
-¡Hola! Soy **Jhamil**, un entusiasta de la tecnología en camino a convertirme en un profesional **DevOps**.  
-Este repositorio es mi laboratorio personal: aquí documento todo lo que aprendo, pruebo y creo mientras exploro el fascinante mundo del desarrollo, automatización y operaciones.
+¡Hola! Soy **Jhamil**, un entusiasta de la tecnología en camino a convertirme en un profesional **Devops**.  
+Este repositorio es mi laboratorio personal: aquí documento todo lo que aprendo, pruebo y creo mientras exploro el mundo de la automatización, desarrollo y programación.
 
 ---
 
 ## 📚 ¿Qué encontrarás aquí?
 
-Una colección en crecimiento de **scripts**, **proyectos**, y **experimentos prácticos** que cubren herramientas clave del ecosistema DevOps. Cada carpeta aborda una tecnología o área específica:
+Una colección en crecimiento de **scripts**, **proyectos**, y **experimentos prácticos** que cubren herramientas clave del ecosistema Devops. Cada carpeta aborda una tecnología o área específica:
 
-- 🐍 **Python / Go / Bash:** Scripting para automatizar tareas y administrar sistemas  
+- 🐍 **Python** Automatización de procesos y despliegue de código
+- 🤖 **Bash** Comandos para automatizar tareas y administrar sistemas
 - 🐳 **Docker:** Contenerización de aplicaciones  
 - ☸️ **Kubernetes:** Orquestación de contenedores  
 - ⚙️ **CI/CD:** Automatización de pruebas y despliegues  
@@ -17,30 +18,27 @@ Una colección en crecimiento de **scripts**, **proyectos**, y **experimentos pr
 - 🌍 **Terraform:** Infraestructura como código  
 - 🛠️ **GitLab, HTTPS, FTP:** Servicios y protocolos esenciales
 
-Este repositorio está **en evolución constante**, reflejando mi crecimiento y nuevas áreas de exploración.
-
 ---
 
-## 📂 Estructura del Repositorio
+## 📂 Estructura actual del Repositorio
 
 ```bash
 devops-lab/
 ├── 01_python_scripts/     # Automatización con Python
-├── 02_bash_scripts/       # Scripts Bash para administración
-├── 03_docker/             # Contenedores con Docker
-├── 04_kubernetes/         # Orquestación con Kubernetes
-├── 05_ci_cd/              # Pipelines CI/CD
-├── 06_aws_lambda/         # Funciones serverless en AWS
-├── 07_terraform/          # Infraestructura como código
-└── 99_otros/              # Experimentos varios
-
+├── 02_bash_scripts/       # Scripts Bash para procesamiento
+├── 03_vim_guide/          # Guía de vim
+└── 04_git_guide/          # Guía de git
 ```
+>Este repositorio está **en evolución constante**, reflejando mi crecimiento y nuevas áreas de exploración.
+
+
+---
 ## 🎯 Mi Meta
 Construir una base técnica sólida que me permita:
 - Desarrollar e integrar herramientas eficientes para equipos de desarrollo
 - Automatizar procesos repetitivos y mejorar flujos de trabajo
 - Diseñar arquitecturas confiables y escalables
-- Convertirme en un DevOps Engineer listo para afrontar retos reales
+- Convertirme en un Devops Engineer listo para afrontar retos reales
 
 ## 🙌 Gracias por pasarte por aquí
 Si llegaste hasta aquí, ¡gracias por tu interés! 🎉
