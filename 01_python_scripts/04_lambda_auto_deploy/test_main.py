@@ -3,11 +3,11 @@ import json
 
 
 def test_handler_ok():
-    event = {"body": json.dumps({"a": 5, "b": 3})}
+    event = {"body": json.dumps({"a": 7, "b": 2})}
     response = handler(event, None)
     body = json.loads(response["body"])
     assert response["statusCode"] == 200
-    assert body["resultado"] == 8
+    assert body["resultado"] == 9
 
 
 def test_handler_error_tipo():
