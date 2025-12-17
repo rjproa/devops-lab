@@ -2,9 +2,35 @@
 
 Este script monitorea el uso de **disco**, **CPU** y **memoria RAM**, generando un archivo `.log` con los resultados y enviando **alertas a un canal de Slack** si se superan ciertos umbrales críticos.
 
+<img src='./assets/logs.jpeg'>
+
 ---
 
 ## 🚀 Uso
+
+### ▶️ Pruebas
+
+- Simular sobrecarga de recursos:
+```bash
+stress-ng --matrix 8 -t 1m
+```
+> Este comando sobrecarga el consumo de CPU para pruebas
+
+<img src='./assets/stress.jpeg' width='700px'>
+
+- Verificar estado de recursos con el comando `top`
+
+<img src='./assets/top.jpeg' width='700px'>
+
+- Ejecutar script 
+
+<img src='./assets/logs.jpeg' width='700px'>
+
+- Slack recibe las alertas de sobrecarga
+
+<img src='./assets/slack.jpeg' width='700px'>
+
+---
 
 ### 📌 Requisitos
 
@@ -41,38 +67,7 @@ python3 script.py --destination /ruta/a/carpeta
 
 > El archivo de log `monitor_sistema.log` se generará dentro de la ruta especificada.
 
----
-
-### ✅ Ejemplo de uso
-
-```bash
-python3 monitoreo_alertas.py --destination /home/usuario/monitoring
-```
-
-* ✅ Flujo del script:
-
-  * 1️⃣ Inicio:
-
-    * El script se ejecuta con el argumento:
-
-      * `--destination`: ruta base donde se guarda el log `monitor_sistema.log`.
-
-  * 2️⃣ Configuración de log:
-
-    * Crea la carpeta si no existe.
-    * Genera el archivo log `monitor_sistema.log` en la ruta destino.
-
-  * 3️⃣ Monitoreo y alertas:
-
-    * 📦 **Disco**: analiza todas las particiones montadas y envía alerta si superan el **70%** de uso.
-    * 🧠 **CPU**: evalúa el uso total del CPU, alerta si excede el **65%**.
-    * 💾 **RAM**: mide el uso de memoria, alerta si supera el **65%**.
-    * Si se excede algún umbral, se genera un log **WARNING** y se envía una alerta por Slack. Si no, se registra un **INFO**.
-
-  * 4️⃣ Finalización:
-
-    * Cierra el log con estado general del sistema.
-
+* 📁 El parámetro `--destination` es opcional. Por defecto, el archivo log se guardará en el directorio actual.
 ---
 
 ### 📊 Ejemplo visual del resultado
@@ -94,10 +89,3 @@ Contenido del log generado:
 > Las alertas son enviadas al canal de Slack vinculado al webhook configurado en `.env`.
 
 ---
-
-### ⚠️ Notas importantes
-
-* 🔒 Asegúrate de **no subir tu archivo `.env`** al repositorio público.
-* 🔧 Puedes modificar los umbrales en el script: `DISK_THRESHOLD`, `CPU_THRESHOLD`, `RAM_THRESHOLD`.
-* 📁 El parámetro `--destination` es opcional. Por defecto, el archivo log se guardará en el directorio actual.
-
